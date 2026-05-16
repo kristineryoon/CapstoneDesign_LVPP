@@ -8,6 +8,7 @@ docker exec -it proximal-custom //bin/bash
 
 export HDF5_USE_FILE_LOCKING=FALSE
 cd shared/examples/01_obstacle_problem
+cd shared/examples/01_obstacle_problem
 
 여기까지 했으면 이제 fenics 제대로 설치되었는지 확인 필요
 
@@ -31,7 +32,7 @@ python3 generate_pipe_net.py
 bash 2.
 
 생성된 파일 다운로드로 이동하는 코드.
-mv examples/01_obstacle_problem/coarse /c/Users/parkg/Downloads/
-mv examples/01_obstacle_problem/medium /c/Users/parkg/Downloads/
-mv examples/01_obstacle_problem/fine /c/Users/parkg/Downloads/
-mv examples/01_obstacle_problem/output /c/Users/parkg/Downloads/
+mv examples/01_obstacle_problem/coarse /c/Users/hjun3/Downloads/
+mv examples/01_obstacle_problem/medium /c/Users/hjun3/Downloads/
+mv examples/01_obstacle_problem/fine /c/Users/hjun3/Downloads/
+mv examples/01_obstacle_problem/output /c/Users/hjun3/Downloads/
