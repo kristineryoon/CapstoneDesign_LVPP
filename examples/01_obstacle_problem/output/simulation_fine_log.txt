@@ -1,0 +1,1225 @@
+ WARNING: To use the requested linear solver ssids, the environment variables
+          OMP_CANCELLATION and OMP_PROC_BIND must both be set to TRUE
+ WARNING: To use the requested linear solver ssids, the environment variables
+          OMP_CANCELLATION and OMP_PROC_BIND must both be set to TRUE
+  Problem:  (n = 24477): TRB stopping tolerance = 1.0000E-05
+
+It              f        pgrad      ratio   radius # active # fact         time 
+0          0.0000E+00  5.9217E-02           1.0E+02   504   
+1         -1.1165E+00  1.4601E-01  1.0E+00  1.0E+02   3861   0             0.41
+2         -1.1233E+00  8.8332E-02  1.0E+00  1.0E+08   3538   0             0.45
+3         -1.1257E+00  4.9559E-02  1.0E+00  1.0E+08   3259   0             0.50
+4         -1.1264E+00  2.2091E-02  1.0E+00  1.0E+08   3044   0             0.53
+5         -1.1266E+00  6.0678E-03  1.0E+00  1.0E+08   2935   0             0.57
+6         -1.1266E+00  1.1676E-03  1.0E+00  1.0E+08   2893   0             0.61
+7         -1.1266E+00  3.4762E-10  1.0E+00  1.0E+08   2887   0             0.64
+
+  Problem:  (n = 24477): TRB stopping tolerance = 1.0000E-05
+  Second-order model used
+  Final Hessian semi-bandwidth (original, re-ordered) = 282, 282
+  Diagonal TR-norm used
+  Total time = .64 seconds
+
+  0 SNES Function norm 1.065514162372e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.065514162372e-01
+    1 KSP Residual norm 6.511848171890e-14
+  1 SNES Function norm 9.214228364994e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.214228364994e-02
+    1 KSP Residual norm 4.419243914091e-14
+  2 SNES Function norm 8.196460907447e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.196460907447e-02
+    1 KSP Residual norm 3.548255983460e-14
+  3 SNES Function norm 5.783735372475e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.783735372475e-02
+    1 KSP Residual norm 1.926722708049e-14
+  4 SNES Function norm 2.488383672581e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.488383672581e-02
+    1 KSP Residual norm 1.785892028182e-14
+  5 SNES Function norm 2.379131940309e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.379131940309e-03
+    1 KSP Residual norm 5.842825104950e-15
+  6 SNES Function norm 9.122468157991e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.122468157991e-05
+    1 KSP Residual norm 2.622900161480e-16
+  7 SNES Function norm 3.683405984110e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.683405984110e-05
+    1 KSP Residual norm 4.805787085720e-17
+  8 SNES Function norm 1.030471018625e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.030471018625e-05
+    1 KSP Residual norm 5.988283286130e-18
+  9 SNES Function norm 2.292160332409e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.292160332409e-06
+    1 KSP Residual norm 1.775995722770e-18
+ 10 SNES Function norm 3.425192521404e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.425192521404e-07
+    1 KSP Residual norm 3.498787553475e-19
+ 11 SNES Function norm 1.808733966704e-08
+  0 SNES Function norm 6.847891480149e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.847891480149e-02
+    1 KSP Residual norm 3.476649380663e-15
+  1 SNES Function norm 2.229324672652e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.229324672652e-04
+    1 KSP Residual norm 5.515330178969e-15
+  2 SNES Function norm 1.109196821319e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.109196821319e-04
+    1 KSP Residual norm 1.441570298379e-16
+  3 SNES Function norm 3.902008588715e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.902008588715e-05
+    1 KSP Residual norm 1.285423712190e-17
+  4 SNES Function norm 1.358130546089e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.358130546089e-05
+    1 KSP Residual norm 2.819071385532e-18
+  5 SNES Function norm 4.564975305421e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.564975305421e-06
+    1 KSP Residual norm 1.363901591792e-18
+  6 SNES Function norm 1.426440697995e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.426440697995e-06
+    1 KSP Residual norm 8.612489263458e-19
+  7 SNES Function norm 3.712012068157e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.712012068157e-07
+    1 KSP Residual norm 2.959075049292e-19
+  8 SNES Function norm 6.289923611771e-08
+  0 SNES Function norm 1.135561599375e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.135561599375e-01
+    1 KSP Residual norm 8.313432029685e-16
+  1 SNES Function norm 1.166133411351e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.166133411351e-05
+    1 KSP Residual norm 2.204531292912e-16
+  2 SNES Function norm 5.475021988609e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.475021988609e-07
+    1 KSP Residual norm 3.391937773247e-17
+  3 SNES Function norm 6.944615414318e-08
+  0 SNES Function norm 2.043688677000e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.043688677000e-01
+    1 KSP Residual norm 2.771974273975e-16
+  1 SNES Function norm 9.720845227530e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.720845227530e-07
+    1 KSP Residual norm 2.858817107679e-17
+  2 SNES Function norm 6.706974868040e-08
+  0 SNES Function norm 4.572478302910e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.572478302910e-01
+    1 KSP Residual norm 1.394653687440e-16
+  1 SNES Function norm 1.329100360456e-07
+  0 SNES Function norm 1.407891018854e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.407891018854e+00
+    1 KSP Residual norm 2.716905168064e-16
+  1 SNES Function norm 8.988487149765e-08
+  0 SNES Function norm 7.299411648724e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 7.299411648724e+00
+    1 KSP Residual norm 1.417682938899e-15
+  1 SNES Function norm 8.695379221825e-08
+  0 SNES Function norm 8.590816078324e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.590816078324e+00
+    1 KSP Residual norm 1.644482920075e-15
+  1 SNES Function norm 1.491384791803e-08
+  0 SNES Function norm 8.588161568410e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.588161568410e+00
+    1 KSP Residual norm 1.713911046071e-15
+  1 SNES Function norm 3.726564677793e-09
+  0 SNES Function norm 6.220902545818e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.220902545818e-02
+    1 KSP Residual norm 1.708172723505e-13
+  1 SNES Function norm 5.376167836218e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.376167836218e-02
+    1 KSP Residual norm 1.147178073762e-13
+  2 SNES Function norm 4.781583998903e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.781583998903e-02
+    1 KSP Residual norm 9.049734183379e-14
+  3 SNES Function norm 3.383903583666e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.383903583666e-02
+    1 KSP Residual norm 4.927211907568e-14
+  4 SNES Function norm 1.477621934012e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.477621934012e-02
+    1 KSP Residual norm 4.587030492318e-14
+  5 SNES Function norm 1.410694621626e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.410694621626e-03
+    1 KSP Residual norm 1.527784594738e-14
+  6 SNES Function norm 6.568387577069e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.568387577069e-05
+    1 KSP Residual norm 7.170213304960e-16
+  7 SNES Function norm 2.574321390552e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.574321390552e-05
+    1 KSP Residual norm 7.635515621424e-17
+  8 SNES Function norm 7.133263562899e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 7.133263562899e-06
+    1 KSP Residual norm 1.714945212776e-17
+  9 SNES Function norm 1.588998311196e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.588998311196e-06
+    1 KSP Residual norm 5.422020518440e-18
+ 10 SNES Function norm 2.462179476138e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.462179476138e-07
+    1 KSP Residual norm 1.044040939711e-18
+ 11 SNES Function norm 1.394858195571e-08
+  0 SNES Function norm 3.955406927473e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.955406927473e-02
+    1 KSP Residual norm 9.114163258829e-15
+  1 SNES Function norm 3.767050152154e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.767050152154e-02
+    1 KSP Residual norm 9.236787691294e-15
+  2 SNES Function norm 1.385825512396e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.385825512396e-02
+    1 KSP Residual norm 2.628383260641e-16
+  3 SNES Function norm 5.098166807628e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.098166807628e-03
+    1 KSP Residual norm 3.076940332789e-17
+  4 SNES Function norm 1.875509837910e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.875509837910e-03
+    1 KSP Residual norm 7.400346538224e-18
+  5 SNES Function norm 6.899612102819e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.899612102819e-04
+    1 KSP Residual norm 5.456327881812e-18
+  6 SNES Function norm 2.538226498099e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.538226498099e-04
+    1 KSP Residual norm 1.488033852435e-18
+  7 SNES Function norm 9.337656536176e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.337656536176e-05
+    1 KSP Residual norm 5.801224554879e-19
+  8 SNES Function norm 3.435193721617e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.435193721617e-05
+    1 KSP Residual norm 5.923845281203e-19
+  9 SNES Function norm 1.263806567061e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.263806567061e-05
+    1 KSP Residual norm 3.006195894921e-19
+ 10 SNES Function norm 4.649969848184e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.649969848184e-06
+    1 KSP Residual norm 2.016071835518e-19
+ 11 SNES Function norm 1.711279277476e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.711279277476e-06
+    1 KSP Residual norm 6.360816048233e-19
+ 12 SNES Function norm 6.301730417941e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.301730417941e-07
+    1 KSP Residual norm 1.698419041021e-19
+ 13 SNES Function norm 2.324709260021e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.324709260021e-07
+    1 KSP Residual norm 3.043677507429e-19
+ 14 SNES Function norm 8.622114677581e-08
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.622114677581e-08
+    1 KSP Residual norm 1.052563894060e-19
+ 15 SNES Function norm 3.244669086123e-08
+  0 SNES Function norm 6.611961984658e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.611961984658e-02
+    1 KSP Residual norm 2.154511422428e-15
+  1 SNES Function norm 5.950765786200e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.950765786200e-02
+    1 KSP Residual norm 1.862479615302e-15
+  2 SNES Function norm 3.817445784156e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.817445784156e-02
+    1 KSP Residual norm 1.092582873003e-15
+  3 SNES Function norm 2.479630246287e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.479630246287e-04
+    1 KSP Residual norm 1.627504879809e-16
+  4 SNES Function norm 9.382273775285e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.382273775285e-05
+    1 KSP Residual norm 1.389834794864e-17
+  5 SNES Function norm 3.451587179144e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.451587179144e-05
+    1 KSP Residual norm 6.082082732230e-19
+  6 SNES Function norm 1.269815101597e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.269815101597e-05
+    1 KSP Residual norm 7.823308071823e-19
+  7 SNES Function norm 4.671854226808e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.671854226808e-06
+    1 KSP Residual norm 1.908220065056e-19
+  8 SNES Function norm 1.719131306479e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.719131306479e-06
+    1 KSP Residual norm 1.512299305764e-19
+  9 SNES Function norm 6.328686770892e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.328686770892e-07
+    1 KSP Residual norm 2.365279097969e-19
+ 10 SNES Function norm 2.332376861508e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.332376861508e-07
+    1 KSP Residual norm 2.375415651467e-19
+ 11 SNES Function norm 8.620461722295e-08
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.620461722295e-08
+    1 KSP Residual norm 3.959872178853e-19
+ 12 SNES Function norm 3.210311027303e-08
+  0 SNES Function norm 1.195022094193e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.195022094193e-01
+    1 KSP Residual norm 7.014005104443e-16
+  1 SNES Function norm 1.466044854352e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.466044854352e-03
+    1 KSP Residual norm 4.106530306256e-17
+  2 SNES Function norm 5.393447854137e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.393447854137e-04
+    1 KSP Residual norm 7.216307339423e-18
+  3 SNES Function norm 1.984149237687e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.984149237687e-04
+    1 KSP Residual norm 1.094751553963e-18
+  4 SNES Function norm 7.299402684376e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 7.299402684376e-05
+    1 KSP Residual norm 4.536807556518e-19
+  5 SNES Function norm 2.685455207515e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.685455207515e-05
+    1 KSP Residual norm 6.831983401803e-19
+  6 SNES Function norm 9.880771240822e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.880771240822e-06
+    1 KSP Residual norm 4.592993301722e-19
+  7 SNES Function norm 3.636343170915e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.636343170915e-06
+    1 KSP Residual norm 2.416425998447e-18
+  8 SNES Function norm 1.339006268665e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.339006268665e-06
+    1 KSP Residual norm 1.118895133251e-18
+  9 SNES Function norm 4.937248682124e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.937248682124e-07
+    1 KSP Residual norm 2.916224391824e-19
+ 10 SNES Function norm 1.826304488803e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.826304488803e-07
+    1 KSP Residual norm 1.502188320764e-19
+ 11 SNES Function norm 6.805727545083e-08
+  0 SNES Function norm 2.680057918312e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.680057918312e-01
+    1 KSP Residual norm 2.720715671308e-16
+  1 SNES Function norm 8.955751535501e-08
+  0 SNES Function norm 8.277710023684e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.277710023684e-01
+    1 KSP Residual norm 1.731244730888e-16
+  1 SNES Function norm 1.687092771560e-07
+  0 SNES Function norm 4.304225157889e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.304225157889e+00
+    1 KSP Residual norm 8.431177568040e-16
+  1 SNES Function norm 3.203529159055e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.203529159055e+00
+    1 KSP Residual norm 6.614093659970e-16
+  2 SNES Function norm 2.883176243149e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.883176243149e+00
+    1 KSP Residual norm 6.239544087246e-16
+  3 SNES Function norm 2.594858618834e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.594858618834e+00
+    1 KSP Residual norm 5.333503260014e-16
+  4 SNES Function norm 2.335372756951e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.335372756951e+00
+    1 KSP Residual norm 4.698286028431e-16
+  5 SNES Function norm 2.101835481256e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.101835481256e+00
+    1 KSP Residual norm 4.479800150897e-16
+  6 SNES Function norm 1.891651933130e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.891651933130e+00
+    1 KSP Residual norm 3.922617265822e-16
+  7 SNES Function norm 1.702486739817e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.702486739817e+00
+    1 KSP Residual norm 3.512511997649e-16
+  8 SNES Function norm 1.532238065836e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.532238065836e+00
+    1 KSP Residual norm 3.352385766677e-16
+  9 SNES Function norm 1.379014259252e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.379014259252e+00
+    1 KSP Residual norm 2.848250155956e-16
+ 10 SNES Function norm 1.241112833327e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.241112833327e+00
+    1 KSP Residual norm 2.552102331705e-16
+ 11 SNES Function norm 3.505435528907e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.505435528907e-03
+    1 KSP Residual norm 5.837869216082e-18
+ 12 SNES Function norm 1.289577609292e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.289577609292e-03
+    1 KSP Residual norm 8.287161124428e-18
+ 13 SNES Function norm 4.744090400282e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.744090400282e-04
+    1 KSP Residual norm 5.010713034808e-17
+ 14 SNES Function norm 1.745252813389e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.745252813389e-04
+    1 KSP Residual norm 3.520347968006e-19
+ 15 SNES Function norm 6.420421398344e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.420421398344e-05
+    1 KSP Residual norm 2.993530662265e-19
+ 16 SNES Function norm 2.361937254251e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.361937254251e-05
+    1 KSP Residual norm 3.349291714324e-19
+ 17 SNES Function norm 8.689070471651e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.689070471651e-06
+    1 KSP Residual norm 1.880852622806e-19
+ 18 SNES Function norm 3.196552319352e-06
+  0 SNES Function norm 5.062415251793e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.062415251793e+00
+    1 KSP Residual norm 1.043205645320e-15
+  1 SNES Function norm 1.176207921730e-06
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.19, running with linear solver MUMPS 5.8.1.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:    95385
+
+Total number of variables............................:    23973
+                     variables with only lower bounds:    23973
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 0.00e+00 1.00e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.5108657e+00 0.00e+00 9.98e-03  -1.0 1.00e-01    -  9.90e-01 1.00e+00f  1
+   2  5.5361344e+00 0.00e+00 5.24e-04  -2.5 2.58e-01    -  9.95e-01 1.00e+00f  1
+   3  1.0929077e+00 0.00e+00 1.50e-09  -3.8 2.94e-01    -  1.00e+00 1.00e+00f  1
+   4 -8.2775818e-01 0.00e+00 3.26e-07  -5.7 2.49e-01    -  1.00e+00 1.00e+00f  1
+   5 -9.9667911e-01 0.00e+00 1.35e-03  -5.7 6.94e-02    -  1.00e+00 5.32e-01f  1
+   6 -1.0967762e+00 0.00e+00 3.15e-04  -5.7 4.93e-02    -  1.00e+00 7.18e-01f  1
+   7 -1.1182968e+00 0.00e+00 3.37e-05  -5.7 1.97e-02    -  1.00e+00 9.75e-01f  1
+   8 -1.1187012e+00 0.00e+00 1.84e-11  -5.7 2.34e-03    -  1.00e+00 1.00e+00f  1
+   9 -1.1244951e+00 0.00e+00 1.64e-04  -7.0 6.84e-03    -  1.00e+00 6.80e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 -1.1257350e+00 0.00e+00 4.34e-04  -7.0 3.25e-03    -  1.00e+00 6.25e-01f  1
+  11 -1.1263169e+00 0.00e+00 3.32e-05  -7.0 1.53e-03    -  1.00e+00 9.62e-01f  1
+  12 -1.1263343e+00 0.00e+00 9.09e-13  -7.0 1.70e-04    -  1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 12
+
+                                   (scaled)                 (unscaled)
+Objective...............:  -1.1263342997849402e+00   -1.1263342997849402e+00
+Dual infeasibility......:   9.0935495234805959e-13    9.0935495234805959e-13
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   1.2576035785742851e-07    1.2576035785742851e-07
+Overall NLP error.......:   1.2576035785742851e-07    1.2576035785742851e-07
+
+
+Number of objective function evaluations             = 13
+Number of objective gradient evaluations             = 13
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 1
+Total seconds in IPOPT                               = 0.528
+
+EXIT: Optimal Solution Found.
+This is Ipopt version 3.14.19, running with linear solver MUMPS 5.8.1.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:    23973
+                     variables with only lower bounds:    23973
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 0.00e+00 1.00e+00   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  3.4030614e-01 0.00e+00 5.24e-02  -1.7 1.73e-02    -  9.92e-01 1.00e+00f  1
+   2  4.4878383e+02 0.00e+00 2.69e+00  -1.6 1.42e+00    -  1.00e+00 1.00e+00f  1
+   3  5.0011790e+02 0.00e+00 1.58e+00  -1.6 5.85e+00    -  2.55e-01 1.18e-01f  4
+   4  5.6431792e+02 0.00e+00 6.06e+00  -1.6 6.76e+00    -  3.26e-01 1.74e-01f  2
+   5  4.3851330e+02 0.00e+00 2.48e+00  -1.6 8.62e+00    -  1.49e-01 1.60e-01f  2
+   6  2.0364994e+02 0.00e+00 5.61e+00  -1.6 1.48e+00    -  1.00e+00 1.00e+00f  1
+   7  1.7053549e+02 0.00e+00 2.19e+00  -1.6 1.09e+01    -  3.98e-02 1.03e-01f  2
+   8  1.7336233e+02 0.00e+00 2.05e+00  -1.6 7.23e-01    -  1.00e+00 1.00e+00f  1
+   9  1.6758659e+02 0.00e+00 8.99e-01  -1.6 5.98e+00    -  4.03e-01 7.94e-02f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.6494079e+02 0.00e+00 1.61e+00  -1.6 4.34e-01    -  1.00e+00 1.00e+00f  1
+  11  1.5945749e+02 0.00e+00 2.52e+00  -1.6 6.96e-01    -  1.00e+00 1.00e+00f  1
+  12  1.3550599e+02 0.00e+00 1.32e+00  -1.6 5.05e-01    -  1.00e+00 1.00e+00f  1
+  13  1.4463775e+02 0.00e+00 1.34e+00  -1.6 5.18e-01    -  1.00e+00 1.00e+00f  1
+  14  1.6837242e+02 0.00e+00 2.02e+00  -1.6 2.70e+00    -  4.74e-01 2.50e-01f  3
+  15  1.8291175e+02 0.00e+00 1.99e+00  -1.6 2.73e+00    -  6.45e-01 2.50e-01f  3
+  16  2.0167164e+02 0.00e+00 2.80e+00  -1.6 3.64e+00    -  6.06e-01 2.50e-01f  3
+  17  1.8699102e+02 0.00e+00 1.61e+00  -1.6 6.02e+00    -  3.61e-01 6.77e-02f  4
+  18  1.7524856e+02 0.00e+00 3.13e+00  -1.6 2.74e+00    -  1.00e+00 1.25e-01f  4
+  19  1.6740858e+02 0.00e+00 7.36e-01  -1.6 2.99e+00    -  6.97e-01 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  1.7050177e+02 0.00e+00 1.30e+00  -1.6 3.39e+00    -  7.05e-01 1.25e-01f  4
+  21  1.7288085e+02 0.00e+00 1.01e+00  -1.6 4.20e+00    -  7.31e-01 1.25e-01f  4
+  22  1.8759655e+02 0.00e+00 2.08e+00  -1.6 4.13e+00    -  8.02e-01 1.25e-01f  4
+  23  2.2085059e+02 0.00e+00 1.22e+00  -1.6 2.83e+00    -  9.66e-01 2.50e-01f  3
+  24  6.1100554e+03 0.00e+00 2.14e+01  -1.6 4.33e+00    -  5.59e-01 1.00e+00w  1
+  25  7.7176600e+02 0.00e+00 1.19e+01  -1.6 5.09e+00    -  2.99e-01 1.00e+00w  1
+  26  1.4625435e+03 0.00e+00 2.09e+01  -1.6 2.31e+01    -  8.07e-02 2.02e-01w  1
+  27  2.2189532e+02 0.00e+00 1.31e+00  -1.6 4.98e+00    -  5.59e-01 6.25e-02f  4
+  28  1.7455108e+02 0.00e+00 4.76e-01  -1.6 5.20e-01    -  1.00e+00 1.00e+00f  1
+  29  1.7306791e+02 0.00e+00 7.96e-01  -1.6 3.15e+00    -  1.00e+00 6.25e-02f  5
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  1.7588790e+02 0.00e+00 9.30e-01  -1.6 2.16e-01    -  1.00e+00 1.00e+00f  1
+  31  1.8888960e+02 0.00e+00 1.33e+00  -1.6 2.64e+00    -  7.43e-01 1.25e-01f  4
+  32  1.9047048e+02 0.00e+00 8.27e-01  -1.6 5.12e+00    -  7.85e-01 5.04e-02f  5
+  33  1.9424963e+02 0.00e+00 1.27e+00  -1.6 2.34e+00    -  1.00e+00 1.25e-01f  4
+  34  1.9113240e+02 0.00e+00 9.96e-01  -1.6 8.42e-01    -  1.00e+00 2.50e-01f  3
+  35  1.8699458e+02 0.00e+00 8.55e-01  -1.6 8.96e-01    -  1.00e+00 2.50e-01f  3
+  36  1.8349747e+02 0.00e+00 3.59e-01  -1.6 3.71e-01    -  1.00e+00 5.00e-01f  2
+  37  1.8248292e+02 0.00e+00 1.24e+00  -1.6 2.48e-01    -  1.00e+00 1.00e+00f  1
+  38  1.8106547e+02 0.00e+00 5.37e-01  -1.6 2.30e-01    -  1.00e+00 1.00e+00f  1
+  39  1.8080871e+02 0.00e+00 4.18e-01  -1.6 5.13e-01    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40  1.8147140e+02 0.00e+00 1.12e+00  -1.6 5.81e-01    -  1.00e+00 2.50e-01f  3
+  41  1.8056614e+02 0.00e+00 6.16e-01  -1.6 3.29e-01    -  1.00e+00 5.00e-01f  2
+  42  1.7982500e+02 0.00e+00 1.01e+00  -1.6 1.01e+00    -  1.00e+00 2.50e-01f  3
+  43  1.7896356e+02 0.00e+00 6.47e-01  -1.6 1.08e+00    -  1.00e+00 1.25e-01f  4
+  44  1.7910691e+02 0.00e+00 1.36e+00  -1.6 4.87e-01    -  1.00e+00 2.50e-01f  3
+  45  1.7958646e+02 0.00e+00 4.97e-01  -1.6 1.61e+00    -  1.00e+00 1.25e-01f  4
+  46  1.8067380e+02 0.00e+00 4.84e-01  -1.6 7.04e-01    -  1.00e+00 2.50e-01f  3
+  47  1.8207624e+02 0.00e+00 8.09e-01  -1.6 1.39e+00    -  1.00e+00 1.25e-01f  4
+  48  1.8344342e+02 0.00e+00 6.94e-01  -1.6 1.10e+00    -  1.00e+00 1.25e-01f  4
+  49  4.7676705e+02 0.00e+00 9.98e+00  -1.6 1.60e+00    -  1.00e+00 1.00e+00w  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50  1.3134729e+03 0.00e+00 1.83e+01  -1.6 4.29e+00    -  5.95e-01 9.86e-01w  1
+  51  1.9013432e+03 0.00e+00 1.58e+01  -1.6 6.26e+00    -  3.40e-01 5.96e-01w  1
+  52  1.8660876e+02 0.00e+00 8.51e-01  -1.6 7.71e+00    -  1.00e+00 1.25e-01f  3
+  53  1.8890443e+02 0.00e+00 1.18e+00  -1.6 4.57e-01    -  1.00e+00 5.00e-01f  2
+  54  1.8852835e+02 0.00e+00 7.68e-01  -1.6 5.98e+00    -  5.51e-01 3.26e-02f  5
+  55  1.8963339e+02 0.00e+00 7.06e-01  -1.6 2.07e+00    -  9.73e-01 6.25e-02f  5
+  56  1.9216197e+02 0.00e+00 9.79e-01  -1.6 1.09e+00    -  1.00e+00 1.25e-01f  4
+  57  1.9489025e+02 0.00e+00 2.44e-01  -1.6 1.53e+00    -  1.00e+00 1.25e-01f  4
+  58  1.9552804e+02 0.00e+00 6.24e-01  -1.6 1.57e+00    -  1.00e+00 6.25e-02f  5
+  59  1.9742628e+02 0.00e+00 5.51e-01  -1.6 1.37e+00    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  60  1.9923352e+02 0.00e+00 5.94e-01  -1.6 2.25e+00    -  1.00e+00 6.25e-02f  5
+  61  1.9996330e+02 0.00e+00 4.96e-01  -1.6 7.40e-01    -  1.00e+00 2.50e-01f  3
+  62  3.2166039e+02 0.00e+00 6.35e+00  -1.6 1.10e+00    -  1.00e+00 1.00e+00w  1
+  63  2.5377178e+02 0.00e+00 4.44e+00  -1.6 1.28e+00    -  1.00e+00 1.00e+00w  1
+  64  2.7231277e+02 0.00e+00 6.47e+00  -1.6 1.44e+00    -  1.00e+00 1.00e+00w  1
+  65  2.0038448e+02 0.00e+00 4.19e-01  -1.6 1.41e+00    -  1.00e+00 1.25e-01f  3
+  66  2.0029880e+02 0.00e+00 1.14e+00  -1.6 4.23e-01    -  1.00e+00 5.00e-01f  2
+  67  2.0114703e+02 0.00e+00 1.12e+00  -1.6 1.83e+00    -  1.00e+00 1.25e-01f  4
+  68  2.0078384e+02 0.00e+00 5.43e-01  -1.6 3.96e-01    -  1.00e+00 2.50e-01f  3
+  69  1.9939401e+02 0.00e+00 3.86e-01  -1.6 1.43e-01    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  70  1.9941534e+02 0.00e+00 5.78e-01  -1.6 1.04e-01    -  1.00e+00 1.00e+00f  1
+  71  1.9933923e+02 0.00e+00 1.49e-01  -1.6 1.57e-01    -  1.00e+00 5.00e-01f  2
+  72  1.9763283e+02 0.00e+00 5.88e-01  -2.5 8.37e-02    -  1.00e+00 1.00e+00f  1
+  73  1.9595693e+02 0.00e+00 5.10e-01  -2.5 1.15e+00    -  1.00e+00 1.25e-01f  4
+  74  1.9462799e+02 0.00e+00 4.11e-01  -2.5 5.12e-01    -  1.00e+00 1.25e-01f  4
+  75  1.9192489e+02 0.00e+00 1.23e+00  -2.5 4.23e-01    -  1.00e+00 5.00e-01f  2
+  76  1.8477892e+02 0.00e+00 4.55e-01  -2.5 9.87e-01    -  1.00e+00 2.08e-01f  3
+  77  1.7945689e+02 0.00e+00 9.34e-01  -2.5 1.37e+00    -  1.00e+00 1.38e-01f  3
+  78  1.7577099e+02 0.00e+00 5.20e-01  -2.5 1.88e+00    -  5.09e-01 1.03e-01f  3
+  79  1.7115626e+02 0.00e+00 5.35e-01  -2.5 6.65e-01    -  8.96e-01 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  80  1.6682356e+02 0.00e+00 6.48e-01  -2.5 1.54e+00    -  5.75e-01 1.11e-01f  4
+  81  1.6463466e+02 0.00e+00 1.61e+00  -2.5 2.62e+00    -  5.60e-01 1.25e-01f  4
+  82  1.5864319e+02 0.00e+00 6.61e-01  -2.5 2.03e+00    -  1.00e+00 1.13e-01f  4
+  83  7.5651165e+02 0.00e+00 1.41e+01  -2.5 3.52e+00    -  5.19e-01 6.86e-01w  1
+  84  4.5092809e+02 0.00e+00 1.20e+01  -2.5 3.67e+00    -  2.88e-01 1.00e+00w  1
+  85  2.9026637e+02 0.00e+00 6.86e+00  -2.5 2.98e+00    -  1.74e-01 1.00e+00w  1
+  86  1.5619671e+02 0.00e+00 1.77e+00  -2.5 3.04e+00    -  5.19e-01 8.58e-02f  3
+  87  1.4544205e+02 0.00e+00 1.12e+00  -2.5 1.44e+00    -  9.65e-01 2.50e-01f  3
+  88  1.4245364e+02 0.00e+00 9.81e-01  -2.5 1.95e+00    -  9.52e-01 1.25e-01f  4
+  89  1.3846155e+02 0.00e+00 5.64e-01  -2.5 3.84e-01    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  90  1.3630172e+02 0.00e+00 1.26e+00  -2.5 2.60e+00    -  1.00e+00 1.12e-01f  4
+  91  1.3180612e+02 0.00e+00 1.14e+00  -2.5 3.98e+00    -  7.94e-01 8.46e-02f  4
+  92  1.2923135e+02 0.00e+00 1.88e+00  -2.5 4.23e+00    -  7.36e-01 6.49e-02f  4
+  93  1.1237741e+02 0.00e+00 1.35e+00  -2.5 5.06e+00    -  5.74e-01 1.17e-01f  3
+  94  1.0938075e+02 0.00e+00 1.23e+00  -2.5 1.49e+01    -  2.06e-01 1.31e-02f  5
+  95  1.0275593e+02 0.00e+00 1.20e+00  -2.5 3.23e+00    -  7.13e-01 1.55e-01f  3
+  96  5.4854603e+02 0.00e+00 6.82e+00  -2.5 3.92e+00    -  4.27e-01 4.64e-01w  1
+  97  3.9473451e+02 0.00e+00 6.02e+00  -2.5 3.09e+00    -  2.76e-01 4.98e-01w  1
+  98  3.1972626e+02 0.00e+00 8.27e+00  -2.5 2.79e+00    -  9.80e-03 9.46e-01w  1
+  99  9.5449986e+01 0.00e+00 1.07e+00  -2.5 5.79e+00    -  4.27e-01 5.80e-02f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 100  8.9636673e+01 0.00e+00 1.37e+00  -2.5 8.18e-01    -  1.00e+00 2.50e-01f  3
+ 101  8.0619948e+01 0.00e+00 1.82e+00  -2.5 2.45e+00    -  8.17e-01 2.14e-01f  3
+ 102  7.7687855e+01 0.00e+00 1.20e+00  -2.5 8.66e+00    -  1.49e-01 2.51e-02f  4
+ 103  7.4647903e+01 0.00e+00 1.20e+00  -2.5 4.42e-01    -  1.00e+00 1.00e+00f  1
+ 104  7.1452498e+01 0.00e+00 1.80e+00  -2.5 1.56e+00    -  9.72e-01 2.36e-01f  3
+ 105  6.7879333e+01 0.00e+00 1.69e+00  -2.5 5.85e-01    -  1.00e+00 2.50e-01f  3
+ 106  6.2402026e+01 0.00e+00 5.71e-01  -2.5 5.33e-01    -  1.00e+00 5.00e-01f  2
+ 107  5.8842066e+01 0.00e+00 4.68e-01  -2.5 2.29e-01    -  1.00e+00 1.00e+00f  1
+ 108  5.7394541e+01 0.00e+00 3.64e-01  -2.5 9.05e-01    -  1.00e+00 1.25e-01f  4
+ 109  5.5808076e+01 0.00e+00 5.20e-01  -2.5 8.30e-01    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 110  5.4142176e+01 0.00e+00 7.57e-01  -2.5 1.75e+00    -  1.00e+00 1.25e-01f  4
+ 111  5.2491277e+01 0.00e+00 6.82e-01  -2.5 1.92e+00    -  5.51e-01 8.98e-02f  4
+ 112  5.0905423e+01 0.00e+00 2.24e-01  -2.5 1.40e+00    -  7.82e-01 6.25e-02f  5
+ 113  4.9445729e+01 0.00e+00 9.35e-01  -2.5 1.28e+00    -  7.34e-01 1.25e-01f  4
+ 114  4.8034472e+01 0.00e+00 4.63e-01  -2.5 1.10e+00    -  1.00e+00 1.25e-01f  4
+ 115  4.6994288e+01 0.00e+00 3.43e-01  -2.5 6.25e-01    -  1.00e+00 1.25e-01f  4
+ 116  4.6524918e+01 0.00e+00 2.95e-01  -2.5 3.02e-01    -  1.00e+00 2.50e-01f  3
+ 117  4.6454675e+01 0.00e+00 2.13e-01  -2.5 1.43e-01    -  1.00e+00 5.00e-01f  2
+ 118  6.5570524e+01 0.00e+00 2.11e+00  -2.5 3.53e-01    -  1.00e+00 1.00e+00w  1
+ 119  4.7439404e+01 0.00e+00 7.08e-01  -2.5 4.05e-01    -  1.00e+00 1.00e+00w  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 120  6.9768288e+01 0.00e+00 3.10e+00  -2.5 5.35e-01    -  1.00e+00 1.00e+00w  1
+ 121  4.6297411e+01 0.00e+00 1.70e-01  -2.5 5.26e-01    -  1.00e+00 1.25e-01f  3
+ 122  4.6153365e+01 0.00e+00 1.97e-01  -2.5 5.78e-02    -  1.00e+00 5.00e-01f  2
+ 123  4.5920725e+01 0.00e+00 3.55e-01  -2.5 8.08e-02    -  1.00e+00 1.00e+00f  1
+ 124  4.5718091e+01 0.00e+00 2.09e-01  -2.5 1.42e-01    -  1.00e+00 5.00e-01f  2
+ 125  4.5639688e+01 0.00e+00 1.01e-01  -2.5 4.07e-02    -  1.00e+00 1.00e+00f  1
+ 126  4.5629477e+01 0.00e+00 2.54e-01  -2.5 5.06e-02    -  1.00e+00 1.00e+00f  1
+ 127  4.5339397e+01 0.00e+00 6.56e-02  -2.5 3.81e-02    -  1.00e+00 1.00e+00f  1
+ 128  4.5244583e+01 0.00e+00 1.28e-01  -2.5 5.45e-02    -  1.00e+00 5.00e-01f  2
+ 129  4.5017188e+01 0.00e+00 8.18e-02  -2.5 2.89e-02    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 130  4.4764757e+01 0.00e+00 1.45e-01  -2.5 2.68e-01    -  1.00e+00 1.25e-01f  4
+ 131  4.4633237e+01 0.00e+00 2.54e-01  -2.5 3.33e-01    -  1.00e+00 1.25e-01f  4
+ 132  4.4503735e+01 0.00e+00 1.16e-01  -2.5 8.67e-02    -  1.00e+00 2.50e-01f  3
+ 133  4.4276672e+01 0.00e+00 1.45e-01  -2.5 8.75e-02    -  1.00e+00 2.50e-01f  3
+ 134  4.3979625e+01 0.00e+00 1.50e-01  -2.5 1.97e-01    -  1.00e+00 2.50e-01f  3
+ 135  4.3833744e+01 0.00e+00 1.85e-01  -2.5 1.78e-01    -  1.00e+00 1.25e-01f  4
+ 136  4.3753734e+01 0.00e+00 3.02e-01  -2.5 7.61e-02    -  1.00e+00 5.00e-01f  2
+ 137  4.3584334e+01 0.00e+00 1.79e-01  -2.5 6.18e-02    -  1.00e+00 1.00e+00f  1
+ 138  4.3415942e+01 0.00e+00 1.44e-01  -2.5 5.07e-02    -  1.00e+00 1.00e+00f  1
+ 139  4.3298196e+01 0.00e+00 7.87e-02  -2.5 6.11e-02    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 140  4.3050329e+01 0.00e+00 1.50e-01  -2.5 3.07e-02    -  1.00e+00 1.00e+00f  1
+ 141  4.2921524e+01 0.00e+00 1.11e-01  -2.5 2.35e-01    -  1.00e+00 1.25e-01f  4
+ 142  4.2765998e+01 0.00e+00 1.10e-01  -2.5 7.14e-02    -  1.00e+00 2.50e-01f  3
+ 143  4.2621255e+01 0.00e+00 1.51e-01  -2.5 1.16e-01    -  1.00e+00 2.50e-01f  3
+ 144  4.2512502e+01 0.00e+00 1.12e-01  -2.5 8.82e-02    -  1.00e+00 5.00e-01f  2
+ 145  4.2258658e+01 0.00e+00 1.61e-01  -2.5 1.30e-01    -  1.00e+00 2.50e-01f  3
+ 146  4.2095935e+01 0.00e+00 9.97e-02  -2.5 2.37e-01    -  1.00e+00 1.25e-01f  4
+ 147  4.1704997e+01 0.00e+00 2.32e-01  -2.5 1.97e-01    -  1.00e+00 2.50e-01f  3
+ 148  4.1485794e+01 0.00e+00 1.13e-01  -2.5 5.96e-01    -  1.00e+00 6.25e-02f  5
+ 149  4.1385079e+01 0.00e+00 2.28e-01  -2.5 3.86e-01    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 150  4.1150338e+01 0.00e+00 1.79e-01  -2.5 1.68e-01    -  1.00e+00 2.50e-01f  3
+ 151  5.0358561e+01 0.00e+00 1.81e+00  -2.5 3.59e-01    -  1.00e+00 1.00e+00w  1
+ 152  1.3577626e+02 0.00e+00 4.49e+00  -2.5 7.81e-01    -  1.00e+00 1.00e+00w  1
+ 153  4.3940529e+01 0.00e+00 8.68e-01  -2.5 8.16e-01    -  1.00e+00 1.00e+00w  1
+ 154  4.0695691e+01 0.00e+00 8.26e-02  -2.5 3.02e+00    -  1.00e+00 1.25e-01f  3
+ 155  4.0334868e+01 0.00e+00 2.52e-01  -2.5 8.89e-02    -  1.00e+00 5.00e-01f  2
+ 156  4.0046460e+01 0.00e+00 2.39e-01  -2.5 1.15e+00    -  1.00e+00 6.25e-02f  5
+ 157  3.9865516e+01 0.00e+00 1.27e-01  -2.5 5.62e-01    -  1.00e+00 6.25e-02f  5
+ 158  3.9712515e+01 0.00e+00 1.63e-01  -2.5 3.03e-01    -  1.00e+00 1.25e-01f  4
+ 159  3.9581217e+01 0.00e+00 2.05e-01  -2.5 2.70e-01    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 160  3.9339023e+01 0.00e+00 3.23e-01  -2.5 1.01e-01    -  1.00e+00 5.00e-01f  2
+ 161  3.9047691e+01 0.00e+00 1.50e-01  -2.5 6.33e-01    -  1.00e+00 6.25e-02f  5
+ 162  3.8982666e+01 0.00e+00 1.65e-01  -2.5 1.84e-01    -  1.00e+00 1.25e-01f  4
+ 163  3.8932667e+01 0.00e+00 2.07e-01  -2.5 5.09e-02    -  1.00e+00 1.00e+00f  1
+ 164  3.8920719e+01 0.00e+00 9.33e-02  -2.5 6.53e-02    -  1.00e+00 5.00e-01f  2
+ 165  3.8838359e+01 0.00e+00 9.28e-02  -2.5 5.20e-02    -  1.00e+00 5.00e-01f  2
+ 166  3.8621294e+01 0.00e+00 9.96e-02  -2.5 5.86e-02    -  1.00e+00 5.00e-01f  2
+ 167  3.8442385e+01 0.00e+00 1.21e-01  -2.5 4.99e-01    -  1.00e+00 6.25e-02f  5
+ 168  3.8308041e+01 0.00e+00 1.16e-01  -2.5 2.51e-01    -  1.00e+00 6.25e-02f  5
+ 169  3.8147286e+01 0.00e+00 1.33e-01  -2.5 1.51e-01    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 170  3.7641106e+01 0.00e+00 1.40e-01  -2.5 4.16e-01    -  1.00e+00 1.25e-01f  4
+ 171  3.7308466e+01 0.00e+00 1.54e-01  -2.5 1.23e+00    -  1.00e+00 3.12e-02f  6
+ 172  3.6906243e+01 0.00e+00 1.48e-01  -2.5 7.92e-01    -  1.00e+00 6.25e-02f  5
+ 173  3.6672640e+01 0.00e+00 7.74e-02  -2.5 4.66e-01    -  1.00e+00 6.25e-02f  5
+ 174  4.1277200e+01 0.00e+00 1.28e+00  -2.5 4.13e-01    -  1.00e+00 1.00e+00w  1
+ 175  5.5766591e+01 0.00e+00 3.28e+00  -2.5 6.56e-01    -  1.00e+00 1.00e+00w  1
+ 176  4.4623135e+01 0.00e+00 1.22e+00  -2.5 6.16e-01    -  1.00e+00 1.00e+00w  1
+ 177  3.6278612e+01 0.00e+00 1.10e-01  -2.5 1.15e+00    -  1.00e+00 1.25e-01f  3
+ 178  3.6279972e+01 0.00e+00 1.76e-01  -2.5 5.40e-02    -  1.00e+00 1.00e+00f  1
+ 179  3.6255481e+01 0.00e+00 1.63e-01  -2.5 1.97e-01    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 180  3.6132363e+01 0.00e+00 4.83e-02  -2.5 3.16e-02    -  1.00e+00 1.00e+00f  1
+ 181  3.6118872e+01 0.00e+00 3.69e-02  -2.5 8.73e-02    -  1.00e+00 1.25e-01f  4
+ 182  3.6092071e+01 0.00e+00 2.52e-02  -2.5 5.16e-03    -  1.00e+00 1.00e+00f  1
+ 183  3.5925106e+01 0.00e+00 3.90e-01  -3.7 3.02e-01    -  9.45e-01 2.50e-01f  3
+ 184  3.5636553e+01 0.00e+00 2.85e-01  -3.7 2.67e-01    -  1.00e+00 2.50e-01f  3
+ 185  3.4764235e+01 0.00e+00 2.70e-01  -3.7 3.04e-01    -  1.00e+00 2.50e-01f  3
+ 186  3.4442473e+01 0.00e+00 1.17e+00  -3.7 1.29e+00    -  1.00e+00 1.65e-01f  3
+ 187  3.3457349e+01 0.00e+00 9.94e-01  -3.7 2.26e+00    -  8.47e-01 4.89e-02f  4
+ 188  3.3146639e+01 0.00e+00 1.03e+00  -3.7 1.50e+00    -  5.20e-01 8.63e-02f  4
+ 189  3.2587660e+01 0.00e+00 1.31e+00  -3.7 1.41e+00    -  9.31e-01 2.11e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 190  3.2068796e+01 0.00e+00 9.61e-01  -3.7 2.90e+00    -  4.75e-01 1.18e-01f  2
+ 191  3.1094296e+01 0.00e+00 2.49e-01  -3.7 2.46e+00    -  4.07e-01 6.28e-02f  3
+ 192  2.9745271e+01 0.00e+00 9.47e-01  -3.7 5.72e-01    -  3.81e-01 2.50e-01f  3
+ 193  4.6489814e+01 0.00e+00 2.69e+00  -3.7 5.65e-01    -  6.93e-01 1.00e+00w  1
+ 194  3.7408812e+01 0.00e+00 1.50e+00  -3.7 4.61e-01    -  8.91e-01 1.00e+00w  1
+ 195  1.1755357e+02 0.00e+00 5.52e+00  -3.7 8.81e-01    -  4.68e-01 1.00e+00w  1
+ 196  2.6916993e+01 0.00e+00 1.03e+00  -3.7 8.17e-01    -  1.72e-01 1.00e+00f  1
+ 197  2.4766119e+01 0.00e+00 6.99e-01  -3.7 8.60e-01    -  1.00e+00 2.50e-01f  3
+ 198  2.3905073e+01 0.00e+00 5.71e-01  -3.7 1.81e-01    -  1.00e+00 1.00e+00f  1
+ 199  2.3594816e+01 0.00e+00 2.70e-01  -3.7 1.21e-01    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 200  2.3306774e+01 0.00e+00 7.24e-02  -3.7 4.05e-02    -  1.00e+00 1.00e+00f  1
+ 201  2.3139491e+01 0.00e+00 1.12e-01  -3.7 2.70e-02    -  1.00e+00 1.00e+00f  1
+ 202  2.3081969e+01 0.00e+00 9.16e-01  -3.7 1.65e-01    -  1.00e+00 1.00e+00f  1
+ 203  2.2522124e+01 0.00e+00 8.81e-01  -3.7 5.14e-01    -  8.68e-01 1.25e-01f  4
+ 204  2.2315713e+01 0.00e+00 7.89e-01  -3.7 4.47e-01    -  1.00e+00 1.25e-01f  4
+ 205  2.1653043e+01 0.00e+00 5.14e-01  -3.7 1.81e-01    -  1.00e+00 1.00e+00f  1
+ 206  2.1298833e+01 0.00e+00 4.56e-01  -3.7 1.03e-01    -  1.00e+00 1.00e+00f  1
+ 207  2.1031761e+01 0.00e+00 7.01e-02  -3.7 6.10e-02    -  1.00e+00 1.00e+00f  1
+ 208  2.0919072e+01 0.00e+00 1.73e-01  -3.7 1.55e-01    -  1.00e+00 2.50e-01f  3
+ 209  2.0832760e+01 0.00e+00 4.42e-01  -3.7 6.71e-02    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 210  2.0684656e+01 0.00e+00 4.67e-01  -3.7 2.66e-01    -  1.00e+00 2.50e-01f  3
+ 211  2.0580711e+01 0.00e+00 5.05e-01  -3.7 3.63e-01    -  1.00e+00 2.50e-01f  3
+ 212  2.0060057e+01 0.00e+00 1.42e-01  -3.7 4.82e-01    -  1.00e+00 2.50e-01f  3
+ 213  1.9913645e+01 0.00e+00 1.90e-01  -3.7 8.92e-01    -  7.06e-01 5.43e-02f  5
+ 214  1.9805404e+01 0.00e+00 5.58e-01  -3.7 8.27e-01    -  8.07e-01 1.25e-01f  4
+ 215  1.9773778e+01 0.00e+00 6.17e-01  -3.7 2.46e-01    -  1.00e+00 5.00e-01f  2
+ 216  1.9355146e+01 0.00e+00 3.59e-01  -3.7 3.44e-01    -  1.00e+00 2.50e-01f  3
+ 217  1.9254647e+01 0.00e+00 4.60e-01  -3.7 4.59e-01    -  1.00e+00 1.25e-01f  4
+ 218  1.8982133e+01 0.00e+00 2.22e-01  -3.7 2.83e-01    -  1.00e+00 2.50e-01f  3
+ 219  1.8630378e+01 0.00e+00 1.51e-01  -3.7 2.31e-01    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 220  2.7722643e+01 0.00e+00 1.39e+00  -3.7 2.58e-01    -  1.00e+00 1.00e+00w  1
+ 221  2.3597569e+01 0.00e+00 2.23e+00  -3.7 4.13e-01    -  1.00e+00 1.00e+00w  1
+ 222  2.0055314e+01 0.00e+00 1.64e+00  -3.7 5.03e-01    -  9.14e-01 1.00e+00w  1
+ 223  1.7228183e+01 0.00e+00 1.58e-01  -3.7 2.47e-01    -  1.00e+00 1.00e+00f  1
+ 224  1.7124553e+01 0.00e+00 2.21e-01  -3.7 5.37e-02    -  1.00e+00 1.00e+00f  1
+ 225  1.6678599e+01 0.00e+00 2.50e-01  -3.7 4.53e-02    -  1.00e+00 1.00e+00f  1
+ 226  1.6446235e+01 0.00e+00 4.12e-01  -3.7 7.66e-01    -  1.00e+00 1.14e-01f  4
+ 227  1.6185734e+01 0.00e+00 2.72e-01  -3.7 4.53e-01    -  9.50e-01 1.25e-01f  4
+ 228  1.5595385e+01 0.00e+00 6.59e-01  -3.7 5.92e-01    -  1.00e+00 1.25e-01f  4
+ 229  1.5143656e+01 0.00e+00 7.86e-01  -3.7 7.16e-01    -  8.49e-01 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 230  1.4616859e+01 0.00e+00 6.03e-01  -3.7 2.32e+00    -  2.72e-01 8.19e-02f  3
+ 231  1.4136548e+01 0.00e+00 4.69e-01  -3.7 1.45e+00    -  4.81e-01 6.55e-02f  4
+ 232  1.3424070e+01 0.00e+00 4.13e-01  -3.7 7.23e-01    -  1.00e+00 1.20e-01f  4
+ 233  1.2877717e+01 0.00e+00 2.22e-01  -3.7 8.15e-01    -  1.00e+00 1.08e-01f  4
+ 234  1.2570651e+01 0.00e+00 1.35e-01  -3.7 6.93e-01    -  1.00e+00 5.38e-02f  5
+ 235  1.2315575e+01 0.00e+00 1.63e-01  -3.7 3.93e-01    -  1.00e+00 1.25e-01f  4
+ 236  1.8040763e+01 0.00e+00 1.25e+00  -3.7 2.56e-01    -  1.00e+00 1.00e+00w  1
+ 237  1.2955223e+01 0.00e+00 6.09e-01  -3.7 2.60e-01    -  1.00e+00 1.00e+00w  1
+ 238  1.3029105e+01 0.00e+00 9.32e-01  -3.7 2.08e-01    -  1.00e+00 1.00e+00w  1
+ 239  1.1224675e+01 0.00e+00 3.22e-01  -3.7 1.75e-01    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 240  1.1143175e+01 0.00e+00 2.77e-01  -3.7 8.62e-02    -  1.00e+00 1.00e+00f  1
+ 241  1.0942859e+01 0.00e+00 5.28e-02  -3.7 4.31e-02    -  1.00e+00 1.00e+00f  1
+ 242  1.0830542e+01 0.00e+00 7.83e-02  -3.7 1.45e-02    -  1.00e+00 1.00e+00f  1
+ 243  1.0700153e+01 0.00e+00 1.74e-01  -3.7 6.68e-02    -  1.00e+00 5.00e-01f  2
+ 244  1.0390610e+01 0.00e+00 2.84e-01  -3.7 2.02e-01    -  1.00e+00 2.50e-01f  3
+ 245  1.0152841e+01 0.00e+00 2.38e-01  -3.7 1.37e+00    -  5.89e-01 5.27e-02f  4
+ 246  1.0086450e+01 0.00e+00 9.05e-02  -3.7 7.33e-01    -  7.03e-01 4.81e-02f  5
+ 247  9.8881959e+00 0.00e+00 2.42e-01  -3.7 1.96e-01    -  1.00e+00 2.50e-01f  3
+ 248  9.7197800e+00 0.00e+00 2.15e-01  -3.7 9.79e-01    -  6.05e-01 6.94e-02f  4
+ 249  9.6301630e+00 0.00e+00 1.02e-01  -3.7 1.45e-01    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 250  9.6182693e+00 0.00e+00 3.13e-01  -3.7 6.71e-02    -  1.00e+00 1.00e+00f  1
+ 251  9.3778236e+00 0.00e+00 1.55e-01  -3.7 1.39e-01    -  1.00e+00 5.00e-01f  2
+ 252  9.1405562e+00 0.00e+00 1.66e-01  -3.7 4.69e-02    -  1.00e+00 1.00e+00f  1
+ 253  9.0737102e+00 0.00e+00 1.63e-01  -3.7 3.61e-01    -  1.00e+00 1.25e-01f  4
+ 254  8.9832296e+00 0.00e+00 9.91e-02  -3.7 1.43e-01    -  1.00e+00 2.50e-01f  3
+ 255  8.9283403e+00 0.00e+00 3.30e-01  -3.7 1.15e-01    -  1.00e+00 5.00e-01f  2
+ 256  8.7164703e+00 0.00e+00 1.56e-01  -3.7 4.25e-01    -  1.00e+00 1.25e-01f  4
+ 257  8.5537643e+00 0.00e+00 2.64e-01  -3.7 4.52e-01    -  1.00e+00 1.25e-01f  4
+ 258  8.3960012e+00 0.00e+00 7.38e-02  -3.7 3.24e-01    -  1.00e+00 1.25e-01f  4
+ 259  8.1639101e+00 0.00e+00 3.50e-01  -3.7 2.42e-01    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 260  7.9598929e+00 0.00e+00 1.13e-01  -3.7 1.02e+00    -  5.67e-01 6.47e-02f  4
+ 261  7.7150303e+00 0.00e+00 1.48e-01  -3.7 3.62e-01    -  1.00e+00 1.25e-01f  4
+ 262  7.4300002e+00 0.00e+00 1.87e-01  -3.7 6.07e-01    -  1.00e+00 9.57e-02f  4
+ 263  3.6828081e+01 0.00e+00 2.27e+00  -3.7 1.17e+00    -  9.80e-01 5.55e-01w  1
+ 264  3.0321226e+01 0.00e+00 7.86e-01  -3.7 1.04e+00    -  5.36e-02 3.79e-01w  1
+ 265  1.7126867e+01 0.00e+00 9.67e-01  -3.7 1.67e+00    -  8.22e-03 1.32e-01w  1
+ 266  7.1845230e+00 0.00e+00 1.82e-01  -3.7 1.31e+00    -  9.80e-01 6.94e-02f  3
+ 267  7.0046711e+00 0.00e+00 4.88e-01  -3.7 6.79e+00    -  8.30e-02 1.58e-02f  3
+ 268  6.7517917e+00 0.00e+00 4.87e-01  -3.7 4.28e-01    -  6.21e-01 2.50e-01f  3
+ 269  6.3740177e+00 0.00e+00 2.45e-01  -3.7 8.09e-01    -  4.25e-01 7.51e-02f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 270  5.9068175e+00 0.00e+00 3.75e-01  -3.7 1.72e-01    -  1.00e+00 2.50e-01f  3
+ 271  5.2100497e+00 0.00e+00 3.04e-01  -3.7 1.13e+00    -  5.60e-01 9.31e-02f  3
+ 272  4.8838293e+00 0.00e+00 1.71e-01  -3.7 2.19e+00    -  2.62e-01 2.23e-02f  4
+ 273  4.6320297e+00 0.00e+00 4.83e-01  -3.7 1.08e+00    -  5.64e-01 1.00e-01f  3
+ 274  4.2544810e+00 0.00e+00 2.77e-01  -3.7 1.17e+00    -  3.55e-01 4.62e-02f  4
+ 275  3.9862049e+00 0.00e+00 4.56e-01  -3.7 9.84e-01    -  3.61e-01 4.84e-02f  4
+ 276  1.7203819e+01 0.00e+00 2.43e+00  -3.7 7.28e-01    -  5.78e-01 6.43e-01w  1
+ 277  2.8178835e+01 0.00e+00 1.59e+00  -3.7 1.56e+00    -  1.98e-02 3.46e-01w  1
+ 278  1.9105942e+01 0.00e+00 1.87e+00  -3.7 5.21e-01    -  4.23e-01 1.00e+00w  1
+ 279  3.6465814e+00 0.00e+00 2.34e-01  -3.7 1.44e+00    -  5.78e-01 8.04e-02f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 280  3.4817641e+00 0.00e+00 2.21e-01  -3.7 6.62e-01    -  4.11e-01 8.10e-02f  4
+ 281  2.8560607e+00 0.00e+00 1.30e-01  -3.7 7.52e-02    -  1.00e+00 1.00e+00f  1
+ 282  2.8038843e+00 0.00e+00 1.92e-01  -3.7 8.96e-01    -  4.35e-01 4.70e-02f  4
+ 283  2.7213856e+00 0.00e+00 1.16e-01  -3.7 9.71e-02    -  1.00e+00 2.50e-01f  3
+ 284  2.5740600e+00 0.00e+00 1.78e-01  -3.7 1.71e-01    -  1.00e+00 2.50e-01f  3
+ 285  2.3679591e+00 0.00e+00 1.61e-01  -3.7 5.20e-01    -  1.00e+00 1.25e-01f  4
+ 286  2.2055492e+00 0.00e+00 1.43e-01  -3.7 9.56e-01    -  7.57e-01 3.99e-02f  5
+ 287  2.1253568e+00 0.00e+00 1.27e-01  -3.7 4.02e-01    -  1.00e+00 6.25e-02f  5
+ 288  1.9955179e+00 0.00e+00 1.59e-01  -3.7 3.74e-01    -  1.00e+00 1.25e-01f  4
+ 289  1.7517870e+00 0.00e+00 1.88e-01  -3.7 9.96e-01    -  7.53e-01 1.31e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 290  1.6614253e+00 0.00e+00 1.78e-01  -3.7 5.12e-01    -  6.79e-01 4.89e-02f  5
+ 291  1.5739100e+00 0.00e+00 1.50e-01  -3.7 2.04e-01    -  1.00e+00 1.25e-01f  4
+ 292  1.8576317e+00 0.00e+00 4.02e-01  -3.7 7.42e-02    -  1.00e+00 1.00e+00w  1
+ 293  1.5462026e+00 0.00e+00 1.48e-01  -3.7 7.85e-02    -  1.00e+00 1.00e+00f  1
+ 294  1.3954206e+00 0.00e+00 1.40e-01  -3.7 4.22e-02    -  1.00e+00 1.00e+00f  1
+ 295  1.3535064e+00 0.00e+00 7.23e-02  -3.7 1.05e-01    -  1.00e+00 2.50e-01f  3
+ 296  1.3029901e+00 0.00e+00 5.25e-02  -3.7 1.65e-02    -  1.00e+00 1.00e+00f  1
+ 297  1.2950169e+00 0.00e+00 5.99e-02  -3.7 2.76e-02    -  1.00e+00 5.00e-01f  2
+ 298  1.2784812e+00 0.00e+00 7.20e-03  -3.7 8.60e-03    -  1.00e+00 1.00e+00f  1
+ 299  1.2675696e+00 0.00e+00 1.69e-02  -3.7 3.45e-03    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 300  1.2455194e+00 0.00e+00 1.18e-01  -3.7 8.14e-02    -  1.00e+00 2.50e-01f  3
+ 301  1.2313269e+00 0.00e+00 8.05e-02  -3.7 1.25e-01    -  1.00e+00 1.25e-01f  4
+ 302  1.2222092e+00 0.00e+00 6.85e-02  -3.7 3.38e-02    -  1.00e+00 2.50e-01f  3
+ 303  1.2189041e+00 0.00e+00 5.44e-02  -3.7 1.65e-02    -  1.00e+00 1.00e+00f  1
+ 304  1.2029912e+00 0.00e+00 6.50e-02  -3.7 1.54e-02    -  1.00e+00 1.00e+00f  1
+ 305  1.1890623e+00 0.00e+00 1.70e-02  -3.7 1.23e-02    -  1.00e+00 1.00e+00f  1
+ 306  1.1878383e+00 0.00e+00 1.08e-02  -3.7 1.45e-02    -  1.00e+00 2.50e-01f  3
+ 307  1.1852131e+00 0.00e+00 8.35e-03  -3.7 2.66e-03    -  1.00e+00 1.00e+00f  1
+ 308  1.1826827e+00 0.00e+00 3.16e-02  -3.7 2.46e-02    -  1.00e+00 2.50e-01f  3
+ 309  1.1801434e+00 0.00e+00 3.26e-02  -3.7 2.80e-02    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 310  1.1753651e+00 0.00e+00 2.11e-02  -3.7 2.16e-02    -  1.00e+00 2.50e-01f  3
+ 311  1.1658683e+00 0.00e+00 3.07e-02  -3.7 2.87e-02    -  1.00e+00 2.50e-01f  3
+ 312  1.1585780e+00 0.00e+00 4.14e-02  -3.7 1.50e-01    -  1.00e+00 6.25e-02f  5
+ 313  1.1540705e+00 0.00e+00 2.13e-02  -3.7 5.95e-02    -  1.00e+00 1.25e-01f  4
+ 314  1.1486112e+00 0.00e+00 1.93e-02  -3.7 1.70e-02    -  1.00e+00 2.50e-01f  3
+ 315  1.1434728e+00 0.00e+00 2.87e-02  -3.7 2.01e-02    -  1.00e+00 2.50e-01f  3
+ 316  1.1391237e+00 0.00e+00 2.22e-02  -3.7 5.98e-02    -  1.00e+00 1.25e-01f  4
+ 317  1.1333271e+00 0.00e+00 1.08e-02  -3.7 1.79e-02    -  1.00e+00 2.50e-01f  3
+ 318  1.2174680e+00 0.00e+00 1.42e-01  -3.7 2.30e-02    -  1.00e+00 1.00e+00w  1
+ 319  1.1509460e+00 0.00e+00 1.62e-01  -3.7 3.84e-02    -  1.00e+00 1.00e+00w  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 320  1.1344525e+00 0.00e+00 1.58e-01  -3.7 4.95e-02    -  1.00e+00 1.00e+00w  1
+ 321  1.1054978e+00 0.00e+00 1.75e-02  -3.7 2.62e-02    -  1.00e+00 1.00e+00f  1
+ 322  1.1039025e+00 0.00e+00 4.30e-03  -3.7 2.97e-03    -  1.00e+00 1.00e+00f  1
+ 323  1.1026931e+00 0.00e+00 2.27e-03  -3.7 8.02e-04    -  1.00e+00 1.00e+00f  1
+ 324  1.0955101e+00 0.00e+00 2.32e-02  -3.7 4.92e-03    -  1.00e+00 1.00e+00f  1
+ 325  1.0893481e+00 0.00e+00 1.49e-02  -3.7 1.56e-02    -  1.00e+00 2.50e-01f  3
+ 326  1.0843843e+00 0.00e+00 1.63e-02  -3.7 1.69e-02    -  1.00e+00 2.50e-01f  3
+ 327  1.0805006e+00 0.00e+00 3.46e-02  -3.7 1.40e-02    -  1.00e+00 5.00e-01f  2
+ 328  1.0772097e+00 0.00e+00 1.71e-02  -3.7 6.14e-03    -  1.00e+00 1.00e+00f  1
+ 329  1.0721288e+00 0.00e+00 2.92e-02  -3.7 6.69e-03    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 330  1.0666373e+00 0.00e+00 1.13e-02  -3.7 1.21e-02    -  1.00e+00 5.00e-01f  2
+ 331  1.0601641e+00 0.00e+00 6.48e-03  -3.7 1.08e-02    -  1.00e+00 2.50e-01f  3
+ 332  1.0577773e+00 0.00e+00 7.24e-03  -3.7 1.47e-02    -  1.00e+00 1.25e-01f  4
+ 333  1.0535193e+00 0.00e+00 1.27e-02  -3.7 4.93e-03    -  1.00e+00 5.00e-01f  2
+ 334  1.0505897e+00 0.00e+00 1.13e-02  -3.7 2.24e-02    -  1.00e+00 1.25e-01f  4
+ 335  1.0459353e+00 0.00e+00 2.14e-02  -3.7 1.66e-02    -  1.00e+00 2.50e-01f  3
+ 336  1.0353614e+00 0.00e+00 1.73e-02  -3.7 2.08e-02    -  1.00e+00 2.50e-01f  3
+ 337  1.0306049e+00 0.00e+00 9.53e-03  -3.7 5.71e-02    -  1.00e+00 6.25e-02f  5
+ 338  1.0269613e+00 0.00e+00 9.97e-03  -3.7 1.95e-02    -  1.00e+00 1.25e-01f  4
+ 339  1.0234496e+00 0.00e+00 1.29e-02  -3.7 1.74e-02    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 340  1.0207803e+00 0.00e+00 4.08e-02  -3.7 8.44e-03    -  1.00e+00 1.00e+00w  1
+ 341  1.0207469e+00 0.00e+00 3.10e-02  -3.7 1.05e-02    -  1.00e+00 1.00e+00w  1
+ 342  1.0130088e+00 0.00e+00 2.47e-02  -3.7 8.78e-03    -  1.00e+00 1.00e+00f  1
+ 343  1.0102019e+00 0.00e+00 1.94e-02  -3.7 1.21e-02    -  1.00e+00 5.00e-01f  2
+ 344  1.0090172e+00 0.00e+00 1.27e-02  -3.7 4.56e-03    -  1.00e+00 1.00e+00f  1
+ 345  1.0087592e+00 0.00e+00 9.30e-03  -3.7 3.18e-03    -  1.00e+00 1.00e+00f  1
+ 346  1.0072449e+00 0.00e+00 6.88e-03  -3.7 2.38e-03    -  1.00e+00 1.00e+00f  1
+ 347  1.0052153e+00 0.00e+00 6.73e-03  -3.7 1.76e-03    -  1.00e+00 1.00e+00f  1
+ 348  1.0019781e+00 0.00e+00 1.26e-02  -3.7 3.72e-03    -  1.00e+00 1.00e+00f  1
+ 349  9.9665461e-01 0.00e+00 2.00e-02  -3.7 1.19e-02    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 350  9.9270956e-01 0.00e+00 1.80e-02  -3.7 3.72e-02    -  1.00e+00 1.25e-01f  4
+ 351  9.9069340e-01 0.00e+00 1.60e-02  -3.7 3.51e-02    -  1.00e+00 1.25e-01f  4
+ 352  9.8664992e-01 0.00e+00 1.59e-02  -3.7 9.05e-03    -  1.00e+00 5.00e-01f  2
+ 353  9.8323543e-01 0.00e+00 1.23e-02  -3.7 1.54e-02    -  1.00e+00 2.50e-01f  3
+ 354  9.7958907e-01 0.00e+00 1.21e-02  -3.7 1.35e-02    -  1.00e+00 2.50e-01f  3
+ 355  9.7610258e-01 0.00e+00 1.27e-02  -3.7 1.54e-02    -  1.00e+00 2.50e-01f  3
+ 356  9.7183045e-01 0.00e+00 1.18e-02  -3.7 8.36e-03    -  1.00e+00 2.50e-01f  3
+ 357  9.6863599e-01 0.00e+00 1.40e-02  -3.7 1.49e-02    -  1.00e+00 1.25e-01f  4
+ 358  9.6024812e-01 0.00e+00 2.26e-02  -3.7 1.95e-02    -  1.00e+00 2.50e-01f  3
+ 359  1.0175015e+00 0.00e+00 2.22e-01  -3.7 3.95e-02    -  1.00e+00 1.00e+00w  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 360  9.5049338e-01 0.00e+00 6.84e-02  -3.7 4.13e-02    -  1.00e+00 1.00e+00w  1
+ 361  1.3497398e+00 0.00e+00 2.75e-01  -3.7 6.51e-02    -  1.00e+00 1.00e+00w  1
+ 362  9.5623758e-01 0.00e+00 8.12e-03  -3.7 5.55e-02    -  1.00e+00 6.25e-02f  4
+ 363  9.5760016e-01 0.00e+00 4.60e-03  -3.7 1.76e-03    -  1.00e+00 1.00e+00f  1
+ 364  9.5504474e-01 0.00e+00 1.53e-02  -3.7 1.13e-02    -  1.00e+00 2.50e-01f  3
+ 365  9.3838490e-01 0.00e+00 1.99e-02  -3.7 1.18e-02    -  1.00e+00 5.00e-01f  2
+ 366  9.2691810e-01 0.00e+00 2.54e-02  -3.7 7.31e-02    -  1.00e+00 6.25e-02f  5
+ 367  9.1647165e-01 0.00e+00 1.85e-02  -3.7 8.30e-02    -  1.00e+00 6.25e-02f  5
+ 368  9.0817923e-01 0.00e+00 2.48e-02  -3.7 2.82e-02    -  1.00e+00 1.25e-01f  4
+ 369  9.0291756e-01 0.00e+00 1.19e-02  -3.7 3.22e-02    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 370  8.9921132e-01 0.00e+00 8.53e-03  -3.7 1.07e-02    -  1.00e+00 2.50e-01f  3
+ 371  8.9547823e-01 0.00e+00 2.00e-02  -3.7 7.17e-03    -  1.00e+00 5.00e-01f  2
+ 372  8.9449919e-01 0.00e+00 1.69e-02  -3.7 9.06e-03    -  1.00e+00 5.00e-01f  2
+ 373  8.9430156e-01 0.00e+00 2.30e-03  -3.7 2.61e-03    -  1.00e+00 1.00e+00f  1
+ 374  8.9254460e-01 0.00e+00 4.66e-03  -3.7 1.03e-03    -  1.00e+00 1.00e+00f  1
+ 375  8.8944774e-01 0.00e+00 7.86e-03  -3.7 7.43e-03    -  1.00e+00 2.50e-01f  3
+ 376  8.8130336e-01 0.00e+00 1.63e-02  -3.7 1.08e-02    -  1.00e+00 2.50e-01f  3
+ 377  8.7666426e-01 0.00e+00 7.77e-03  -3.7 2.90e-02    -  1.00e+00 6.25e-02f  5
+ 378  8.7452454e-01 0.00e+00 1.46e-02  -3.7 9.73e-03    -  1.00e+00 1.25e-01f  4
+ 379  8.7251469e-01 0.00e+00 1.39e-02  -3.7 3.39e-03    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 380  8.6717172e-01 0.00e+00 1.98e-02  -3.7 1.73e-02    -  1.00e+00 2.50e-01f  3
+ 381  8.6582249e-01 0.00e+00 7.71e-03  -3.7 8.03e-03    -  1.00e+00 2.50e-01f  3
+ 382  8.6651963e-01 0.00e+00 7.91e-03  -3.7 2.00e-03    -  1.00e+00 1.00e+00f  1
+ 383  8.6624247e-01 0.00e+00 1.03e-02  -3.7 2.45e-03    -  1.00e+00 1.00e+00f  1
+ 384  8.6525788e-01 0.00e+00 2.83e-03  -3.7 1.76e-03    -  1.00e+00 1.00e+00f  1
+ 385  8.6472549e-01 0.00e+00 1.11e-03  -3.7 1.07e-03    -  1.00e+00 5.00e-01f  2
+ 386  7.6848267e-01 0.00e+00 3.94e-02  -5.5 3.78e-02    -  9.90e-01 1.00e+00f  1
+ 387  7.0365463e-01 0.00e+00 1.82e-01  -5.5 2.87e+00    -  4.54e-01 1.98e-02f  3
+ 388  6.7759055e-01 0.00e+00 1.63e-01  -5.5 6.85e-01    -  4.82e-01 4.12e-02f  4
+ 389  6.1925911e-01 0.00e+00 1.11e-01  -5.5 3.74e-01    -  6.46e-01 7.97e-02f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 390  5.0863417e-01 0.00e+00 2.14e-01  -5.5 4.79e-01    -  8.90e-01 9.94e-02f  3
+ 391  4.1595476e-01 0.00e+00 1.15e-01  -5.5 8.27e-01    -  2.52e-01 4.77e-02f  3
+ 392  3.9649216e-01 0.00e+00 2.93e-01  -5.5 8.30e-01    -  4.64e-01 8.38e-02f  3
+ 393  3.0711106e-01 0.00e+00 9.04e-02  -5.5 4.03e-01    -  5.68e-01 8.98e-02f  4
+ 394  1.9870044e-01 0.00e+00 1.88e-01  -5.5 1.86e-01    -  1.00e+00 2.49e-01f  3
+ 395  3.7183858e-02 0.00e+00 5.16e-02  -5.5 3.22e-01    -  1.00e+00 1.21e-01f  3
+ 396  2.5787195e-02 0.00e+00 1.46e-01  -5.5 3.22e-01    -  1.00e+00 1.08e-01f  3
+ 397  1.3519518e+00 0.00e+00 5.33e-01  -5.5 1.60e-01    -  1.00e+00 7.59e-01w  1
+ 398  9.6559201e-01 0.00e+00 4.38e-01  -5.5 2.49e-01    -  7.65e-01 9.38e-02w  1
+ 399  1.1977669e-03 0.00e+00 3.54e-01  -5.5 3.09e-01    -  2.21e-01 3.44e-01w  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 400 -2.9451882e-02 0.00e+00 3.16e-01  -5.5 1.57e-01    -  8.25e-02 5.98e-01f  1
+ 401 -5.7556832e-01 0.00e+00 8.52e-02  -5.1 5.73e-02    -  1.00e+00 8.85e-01f  1
+ 402 -6.2140457e-01 0.00e+00 3.42e-02  -6.0 2.13e-02    -  1.00e+00 3.52e-01f  1
+ 403 -6.6704567e-01 0.00e+00 1.39e-01  -6.4 4.96e-02    -  1.00e+00 3.64e-01f  1
+ 404 -7.2689400e-01 0.00e+00 3.38e-02 -11.0 2.23e-01    -  4.23e-01 7.52e-02f  1
+ 405 -7.5765787e-01 0.00e+00 1.11e-01  -4.6 2.48e-01    -  3.48e-01 8.64e-02f  2
+ 406 -5.7170803e-01 0.00e+00 1.39e-01  -4.3 5.06e-02    -  5.22e-01 1.00e+00f  1
+ 407 -6.3075106e-01 0.00e+00 1.44e-01  -4.6 1.11e-01    -  2.30e-01 2.40e-01f  3
+ 408 -7.2579801e-01 0.00e+00 1.46e-01  -4.6 3.70e-02    -  2.27e-01 1.00e+00f  1
+ 409 -7.7608560e-01 0.00e+00 9.18e-02  -4.6 7.12e-02    -  7.70e-01 3.54e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 410 -7.6527941e-01 0.00e+00 2.42e-02  -4.3 2.36e-02    -  1.00e+00 1.00e+00f  1
+ 411 -7.6631822e-01 0.00e+00 5.82e-02  -4.4 1.00e-01    -  2.92e-01 9.92e-02f  3
+ 412 -7.6557969e-01 0.00e+00 4.47e-02  -4.4 1.29e-02    -  1.00e+00 1.00e+00f  1
+ 413 -7.7522010e-01 0.00e+00 4.36e-02  -4.4 1.57e-01    -  3.77e-01 1.25e-01f  4
+ 414 -7.6175256e-01 0.00e+00 1.22e-01  -4.4 7.57e-02    -  1.00e+00 2.50e-01f  3
+ 415 -7.6036547e-01 0.00e+00 2.67e-02  -4.4 6.46e-02    -  1.00e+00 2.50e-01f  3
+ 416 -7.6122569e-01 0.00e+00 5.04e-02  -4.4 5.17e-02    -  1.00e+00 2.50e-01f  3
+ 417 -7.4903079e-01 0.00e+00 6.08e-02  -4.4 3.63e-02    -  1.00e+00 5.00e-01f  2
+ 418 -7.5256305e-01 0.00e+00 5.99e-02  -4.4 4.55e-02    -  1.00e+00 2.50e-01f  3
+ 419 -7.5685302e-01 0.00e+00 3.38e-02  -4.4 2.23e-02    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 420 -7.6406068e-01 0.00e+00 1.25e-02  -4.4 6.86e-03    -  1.00e+00 1.00e+00f  1
+ 421 -7.6221266e-01 0.00e+00 2.48e-02  -4.4 5.15e-03    -  1.00e+00 1.00e+00f  1
+ 422 -7.5972967e-01 0.00e+00 1.43e-02  -4.4 1.08e-02    -  1.00e+00 5.00e-01f  2
+ 423 -7.5674109e-01 0.00e+00 1.26e-02  -4.4 2.11e-02    -  1.00e+00 2.50e-01f  3
+ 424 -7.5754336e-01 0.00e+00 1.68e-02  -4.4 2.37e-02    -  1.00e+00 1.25e-01f  4
+ 425 -7.6072203e-01 0.00e+00 1.02e-02  -4.4 8.53e-03    -  1.00e+00 5.00e-01f  2
+ 426 -7.6353723e-01 0.00e+00 1.15e-02  -4.4 8.84e-03    -  1.00e+00 5.00e-01f  2
+ 427 -7.6468491e-01 0.00e+00 9.98e-03  -4.4 6.19e-03    -  1.00e+00 5.00e-01f  2
+ 428 -7.6457756e-01 0.00e+00 2.30e-02  -4.4 7.86e-03    -  1.00e+00 5.00e-01f  2
+ 429 -7.6491946e-01 0.00e+00 7.67e-03  -4.4 1.44e-02    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 430 -7.6457538e-01 0.00e+00 1.72e-02  -4.4 7.46e-03    -  1.00e+00 5.00e-01f  2
+ 431 -7.6502879e-01 0.00e+00 9.93e-03  -4.4 7.27e-03    -  1.00e+00 5.00e-01f  2
+ 432 -7.6615539e-01 0.00e+00 4.68e-03  -4.4 2.34e-03    -  1.00e+00 1.00e+00f  1
+ 433 -7.6637208e-01 0.00e+00 7.49e-03  -4.4 1.87e-03    -  1.00e+00 1.00e+00f  1
+ 434 -7.6641450e-01 0.00e+00 9.58e-03  -4.4 2.15e-03    -  1.00e+00 1.00e+00f  1
+ 435 -7.6664741e-01 0.00e+00 1.05e-02  -4.4 1.16e-02    -  1.00e+00 2.50e-01f  3
+ 436 -7.6659579e-01 0.00e+00 2.06e-02  -4.4 1.81e-02    -  1.00e+00 2.50e-01f  3
+ 437 -7.6728847e-01 0.00e+00 9.51e-03  -4.4 1.45e-02    -  1.00e+00 2.50e-01f  3
+ 438 -7.6845085e-01 0.00e+00 1.61e-02  -4.4 7.62e-03    -  1.00e+00 5.00e-01f  2
+ 439 -7.6927354e-01 0.00e+00 2.82e-03  -4.4 1.02e-02    -  1.00e+00 2.50e-01f  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 440 -7.6943213e-01 0.00e+00 1.10e-02  -4.4 4.67e-03    -  1.00e+00 5.00e-01f  2
+ 441 -7.6950737e-01 0.00e+00 8.42e-03  -4.4 6.51e-03    -  1.00e+00 5.00e-01f  2
+ 442 -7.6973076e-01 0.00e+00 1.01e-02  -4.4 8.79e-03    -  1.00e+00 2.50e-01f  3
+ 443 -7.7008362e-01 0.00e+00 1.56e-02  -4.4 1.58e-02    -  1.00e+00 2.50e-01f  3
+ 444 -7.7039709e-01 0.00e+00 1.43e-02  -4.4 2.35e-02    -  1.00e+00 1.25e-01f  4
+ 445 -7.5944872e-01 0.00e+00 6.22e-02  -4.4 1.30e-02    -  1.00e+00 1.00e+00w  1
+ 446 -7.6187265e-01 0.00e+00 4.70e-02  -4.4 1.48e-02    -  1.00e+00 1.00e+00w  1
+ 447 -6.6805268e-01 0.00e+00 1.09e-01  -4.4 2.50e-02    -  1.00e+00 1.00e+00w  1
+ 448 -7.7078405e-01 0.00e+00 9.25e-03  -4.4 2.34e-02    -  1.00e+00 2.50e-01f  2
+ 449 -7.7131545e-01 0.00e+00 5.55e-03  -4.4 1.81e-03    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 450 -7.7143401e-01 0.00e+00 5.22e-03  -4.4 6.00e-03    -  1.00e+00 2.50e-01f  3
+ 451 -7.7155272e-01 0.00e+00 1.06e-03  -4.4 7.89e-04    -  1.00e+00 1.00e+00f  1
+ 452 -7.7164144e-01 0.00e+00 4.07e-03  -4.4 5.71e-03    -  1.00e+00 2.50e-01f  3
+ 453 -7.7166714e-01 0.00e+00 6.20e-03  -4.4 2.21e-02    -  1.00e+00 6.25e-02f  5
+ 454 -7.7140591e-01 0.00e+00 7.71e-03  -4.4 3.00e-03    -  1.00e+00 1.00e+00f  1
+ 455 -7.7142134e-01 0.00e+00 5.29e-03  -4.4 1.23e-02    -  1.00e+00 1.25e-01f  4
+ 456 -7.7133275e-01 0.00e+00 6.59e-03  -4.4 6.75e-03    -  1.00e+00 2.50e-01f  3
+ 457 -7.7135110e-01 0.00e+00 4.98e-03  -4.4 7.63e-03    -  1.00e+00 2.50e-01f  3
+ 458 -7.7182119e-01 0.00e+00 2.86e-03  -4.4 1.69e-03    -  1.00e+00 1.00e+00f  1
+ 459 -7.7185722e-01 0.00e+00 5.95e-03  -4.4 1.06e-02    -  1.00e+00 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 460 -7.7185403e-01 0.00e+00 5.14e-03  -4.4 1.64e-03    -  1.00e+00 1.00e+00f  1
+ 461 -7.7186267e-01 0.00e+00 8.89e-03  -4.4 9.14e-03    -  1.00e+00 2.50e-01f  3
+ 462 -7.7186640e-01 0.00e+00 6.36e-03  -4.4 9.75e-03    -  1.00e+00 2.50e-01f  3
+ 463 -7.7195464e-01 0.00e+00 7.59e-03  -4.4 1.31e-02    -  1.00e+00 6.25e-02f  5
+ 464 -7.7235214e-01 0.00e+00 1.81e-03  -4.4 1.16e-03    -  1.00e+00 1.00e+00f  1
+ 465 -7.7244943e-01 0.00e+00 1.95e-03  -4.4 2.16e-03    -  1.00e+00 2.50e-01f  3
+ 466 -7.7254994e-01 0.00e+00 1.81e-03  -4.4 1.08e-03    -  1.00e+00 1.00e+00f  1
+ 467 -7.7269093e-01 0.00e+00 3.33e-03  -4.4 2.83e-02    -  1.00e+00 3.12e-02f  6
+ 468 -7.7295544e-01 0.00e+00 4.38e-03  -4.4 5.44e-03    -  1.00e+00 2.50e-01f  3
+ 469 -7.7335864e-01 0.00e+00 1.80e-03  -4.4 1.58e-02    -  1.00e+00 6.25e-02f  5
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 470 -7.7398017e-01 0.00e+00 4.80e-03  -4.4 8.21e-03    -  1.00e+00 1.25e-01f  4
+ 471 -7.7441383e-01 0.00e+00 2.71e-03  -4.4 3.30e-03    -  1.00e+00 2.50e-01f  3
+ 472 -7.7480975e-01 0.00e+00 3.03e-03  -4.4 1.97e-03    -  1.00e+00 5.00e-01f  2
+ 473 -7.7508013e-01 0.00e+00 2.50e-03  -4.4 3.04e-03    -  1.00e+00 2.50e-01f  3
+ 474 -7.7513564e-01 0.00e+00 5.14e-03  -4.4 2.20e-03    -  1.00e+00 5.00e-01f  2
+ 475 -7.7520403e-01 0.00e+00 1.93e-03  -4.4 1.14e-03    -  1.00e+00 1.00e+00f  1
+ 476 -7.7539488e-01 0.00e+00 2.03e-03  -4.4 5.52e-04    -  1.00e+00 1.00e+00f  1
+ 477 -7.7596747e-01 0.00e+00 3.70e-03  -4.4 1.06e-03    -  1.00e+00 1.00e+00f  1
+ 478 -7.7679829e-01 0.00e+00 1.97e-03  -4.4 4.51e-03    -  1.00e+00 2.50e-01f  3
+ 479 -7.8069817e-01 0.00e+00 4.98e-02  -5.0 1.02e-01    -  9.96e-01 1.25e-01f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 480 -7.8812877e-01 0.00e+00 2.48e-02  -6.1 9.52e-02    -  1.00e+00 1.25e-01f  4
+ 481 -8.0372364e-01 0.00e+00 8.15e-02  -6.3 1.75e-01    -  1.00e+00 9.20e-02f  4
+ 482 -8.3330863e-01 0.00e+00 8.12e-02  -5.2 8.92e-01    -  1.00e+00 4.37e-02f  3
+ 483 -8.5087450e-01 0.00e+00 4.39e-02  -5.0 3.29e-01    -  1.00e+00 5.00e-02f  4
+ 484 -8.5525377e-01 0.00e+00 5.15e-02  -4.8 1.06e-01    -  9.37e-01 1.25e-01f  4
+ 485 -8.7404044e-01 0.00e+00 4.65e-02  -5.8 1.58e-02    -  1.00e+00 1.00e+00f  1
+ 486 -8.9611082e-01 0.00e+00 5.74e-02  -5.5 6.34e-02    -  1.00e+00 2.50e-01f  3
+ 487 -9.0264022e-01 0.00e+00 1.21e-01  -6.3 8.09e-02    -  1.00e+00 2.49e-01f  2
+ 488 -9.1458702e-01 0.00e+00 1.14e-01  -6.5 2.20e-01    -  1.00e+00 7.81e-02f  2
+ 489 -9.2641878e-01 0.00e+00 8.17e-02  -5.0 2.60e-01    -  1.00e+00 5.36e-02f  4
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 490 -9.5773307e-01 0.00e+00 5.62e-02  -5.5 3.63e-02    -  9.57e-01 5.00e-01f  2
+ 491 -9.8218761e-01 0.00e+00 2.52e-02  -5.6 6.38e-02    -  1.00e+00 1.91e-01f  3
+ 492 -9.9621577e-01 0.00e+00 3.49e-02  -6.2 5.19e-02    -  1.00e+00 2.48e-01f  2
+ 493 -1.0045620e+00 0.00e+00 1.27e-02  -5.3 1.10e-01    -  1.00e+00 6.59e-02f  4
+ 494 -1.0309672e+00 0.00e+00 8.75e-02  -6.6 3.86e-02    -  1.00e+00 6.87e-01f  1
+ 495 -1.0369999e+00 0.00e+00 5.61e-02  -5.6 2.09e-01    -  1.00e+00 7.10e-02f  2
+ 496 -1.0484840e+00 0.00e+00 3.94e-02  -5.5 8.45e-02    -  7.29e-01 1.47e-01f  3
+ 497 -1.0564193e+00 0.00e+00 9.65e-02  -5.9 3.79e-02    -  8.48e-01 5.00e-01f  2
+ 498 -1.0699291e+00 0.00e+00 3.88e-02  -5.8 2.47e-02    -  9.86e-01 5.00e-01f  2
+ 499 -1.0818324e+00 0.00e+00 1.47e-02  -6.6 1.23e-02    -  1.00e+00 6.88e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 500 -1.0845806e+00 0.00e+00 3.05e-02  -6.7 3.45e-02    -  1.00e+00 1.61e-01f  2
+
+Number of Iterations....: 500
+
+                                   (scaled)                 (unscaled)
+Objective...............:  -1.0845805710071335e+00   -1.0845805710071335e+00
+Dual infeasibility......:   3.0477098783315205e-02    3.0477098783315205e-02
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   1.8805744608234911e-06    1.8805744608234911e-06
+Overall NLP error.......:   3.0477098783315205e-02    3.0477098783315205e-02
+
+
+Number of objective function evaluations             = 2627
+Number of objective gradient evaluations             = 501
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 0
+Total seconds in IPOPT                               = 70.750
+
+EXIT: Maximum Number of Iterations Exceeded.
+  0 SNES Function norm 5.916782812219e-02
+  1 SNES Function norm 5.324593682417e-02
+  2 SNES Function norm 4.789055083305e-02
+  3 SNES Function norm 4.677833796004e-02
+  4 SNES Function norm 4.622354582356e-02
+  5 SNES Function norm 4.554937297146e-02
+  6 SNES Function norm 4.450096528567e-02
+  7 SNES Function norm 4.328746577894e-02
+  8 SNES Function norm 4.211196317825e-02
+  9 SNES Function norm 4.177112974920e-02
+ 10 SNES Function norm 3.971118570054e-02
+ 11 SNES Function norm 3.891545494924e-02
+ 12 SNES Function norm 3.693964387115e-02
+ 13 SNES Function norm 3.598043684969e-02
+ 14 SNES Function norm 3.253361035711e-02
+ 15 SNES Function norm 2.930423901125e-02
+ 16 SNES Function norm 2.637274874430e-02
+ 17 SNES Function norm 2.374057440719e-02
+ 18 SNES Function norm 2.136887391509e-02
+ 19 SNES Function norm 1.923196590979e-02
+ 20 SNES Function norm 1.730957471029e-02
+ 21 SNES Function norm 1.558107390831e-02
+ 22 SNES Function norm 1.402038164910e-02
+ 23 SNES Function norm 1.261765609220e-02
+ 24 SNES Function norm 1.135518469738e-02
+ 25 SNES Function norm 1.022159259649e-02
+ 26 SNES Function norm 9.200948738915e-03
+ 27 SNES Function norm 8.281063505909e-03
+ 28 SNES Function norm 7.363817807310e-03
+ 29 SNES Function norm 6.132149165725e-03
+ 30 SNES Function norm 4.937858702242e-03
+ 31 SNES Function norm 3.539091450228e-03
+ 32 SNES Function norm 2.117119842397e-03
+ 33 SNES Function norm 1.582731102244e-03
+ 34 SNES Function norm 4.189874141428e-04
+ 35 SNES Function norm 9.252539207663e-05
+ 36 SNES Function norm 1.246441084300e-05
+ 37 SNES Function norm 1.638015726945e-06
+ 38 SNES Function norm 5.057184429627e-08
+ 39 SNES Function norm 4.170808935555e-09
+OUTER LOOP 1 alpha: 1.0
+Newton steps: 11   Converged: 3
+Increment size: 0.7157456943559729
+
+OUTER LOOP 2 alpha: 1.0
+Newton steps: 8   Converged: 3
+Increment size: 0.24018721344879337   Ratio: 0.33557619045813963
+
+OUTER LOOP 3 alpha: 1.4900343193257237
+Newton steps: 3   Converged: 3
+Increment size: 0.053570079304971686   Ratio: 0.2230346842189105
+
+OUTER LOOP 4 alpha: 2.439200639104808
+Newton steps: 2   Converged: 3
+Increment size: 0.012603977888079414   Ratio: 0.23528017974969986
+
+OUTER LOOP 5 alpha: 5.349445965312164
+Newton steps: 1   Converged: 3
+Increment size: 0.0026868583308806895   Ratio: 0.21317542403988707
+
+OUTER LOOP 6 alpha: 16.387223352344883
+Newton steps: 1   Converged: 3
+Increment size: 0.0005222013120859196   Ratio: 0.19435386900907212
+
+OUTER LOOP 7 alpha: 84.95478289516922
+Newton steps: 1   Converged: 3
+Increment size: 0.00021746905243682843   Ratio: 0.41644677522573414
+
+OUTER LOOP 8 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 0.00019086104576251166   Ratio: 0.87764692779886
+
+OUTER LOOP 9 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 1.708784527348751e-05   Ratio: 0.08953029260224168
+
+Saving data to: /home/jovyan/shared/examples/01_obstacle_problem/output/example_polyorder1_24477.csv
+     Energy  Complementarity  ...   dofs      Step size rule
+0 -1.060677     1.659780e+01  ...  24477  double_exponential
+1 -1.123581     4.402767e-02  ...  24477  double_exponential
+2 -1.126183     7.267672e-03  ...  24477  double_exponential
+3 -1.126304     9.604959e-04  ...  24477  double_exponential
+4 -1.126309     7.722673e-05  ...  24477  double_exponential
+5 -1.126308     1.787238e-06  ...  24477  double_exponential
+6 -1.126308     1.089498e-07  ...  24477  double_exponential
+7 -1.126308     3.483745e-08  ...  24477  double_exponential
+8 -1.126308     1.435352e-09  ...  24477  double_exponential
+
+[9 rows x 11 columns]
+OUTER LOOP 1 alpha: 1.0
+Newton steps: 11   Converged: 3
+Increment size: 0.7153012720178077
+
+OUTER LOOP 2 alpha: 1.0
+Newton steps: 15   Converged: 3
+Increment size: 0.24114257635188185   Ratio: 0.33712029572048424
+
+OUTER LOOP 3 alpha: 1.4900343193257237
+Newton steps: 12   Converged: 3
+Increment size: 0.05331443086263345   Ratio: 0.22109090675400087
+
+OUTER LOOP 4 alpha: 2.439200639104808
+Newton steps: 11   Converged: 3
+Increment size: 0.012418377965741882   Ratio: 0.2329271412038193
+
+OUTER LOOP 5 alpha: 5.349445965312164
+Newton steps: 1   Converged: 3
+Increment size: 0.002611258879335741   Ratio: 0.21027374803209598
+
+OUTER LOOP 6 alpha: 16.387223352344883
+Newton steps: 1   Converged: 3
+Increment size: 0.0005449313843219117   Ratio: 0.20868531597316495
+
+OUTER LOOP 7 alpha: 84.95478289516922
+Newton steps: 18   Converged: 3
+Increment size: 0.0006178205189335596   Ratio: 1.133758371620214
+
+OUTER LOOP 8 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 6.921758268252513e-05   Ratio: 0.11203509848135812
+
+Saving data to: /home/jovyan/shared/examples/01_obstacle_problem/output/example_polyorder2_97401.csv
+     Energy  Complementarity  ...   dofs      Step size rule
+0 -1.060680     1.671358e+01  ...  97401  double_exponential
+1 -1.123810     4.451804e-02  ...  97401  double_exponential
+2 -1.126374     7.232515e-03  ...  97401  double_exponential
+3 -1.126493     9.449757e-04  ...  97401  double_exponential
+4 -1.126499     7.760198e-05  ...  97401  double_exponential
+5 -1.126499     1.294865e-06  ...  97401  double_exponential
+6 -1.126498     1.487967e-07  ...  97401  double_exponential
+7 -1.126498     5.748704e-09  ...  97401  double_exponential
+
+[8 rows x 11 columns]
+0.010132785540944647
+meshes/disk_3.xdmf Galahad iterations: 7
+meshes/disk_3.xdmf llvp iterations: (P=1) 29
+meshes/disk_3.xdmf llvp iterations: (P=2) 70
+meshes/disk_3.xdmf Ipopt iterations: (With hessian) 12
+meshes/disk_3.xdmf Ipopt iterations: (Without hessian 500
+meshes/disk_3.xdmf SNES iterations: 39

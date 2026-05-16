@@ -1,0 +1,734 @@
+ WARNING: To use the requested linear solver ssids, the environment variables
+          OMP_CANCELLATION and OMP_PROC_BIND must both be set to TRUE
+ WARNING: To use the requested linear solver ssids, the environment variables
+          OMP_CANCELLATION and OMP_PROC_BIND must both be set to TRUE
+  Problem:  (n = 1578): TRB stopping tolerance = 2.3645E-05
+
+It              f        pgrad      ratio   radius # active # fact         time 
+0          0.0000E+00  2.3645E-01           1.0E+02   126   
+1         -1.1199E+00  1.9550E-01  1.0E+00  1.0E+02   389    0             0.01
+2         -1.1274E+00  4.1182E-02  1.0E+00  1.0E+08   350    0             0.01
+3         -1.1277E+00  4.9636E-04  1.0E+00  1.0E+08   337    0             0.02
+4         -1.1277E+00  7.7514E-11  1.0E+00  1.0E+08   336    0             0.02
+
+  Problem:  (n = 1578): TRB stopping tolerance = 2.3645E-05
+  Second-order model used
+  Final Hessian semi-bandwidth (original, re-ordered) = 56, 56
+  Diagonal TR-norm used
+  Total time = .02 seconds
+
+  0 SNES Function norm 3.970253978717e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.970253978717e-01
+    1 KSP Residual norm 1.557402004290e-14
+  1 SNES Function norm 3.447531918566e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.447531918566e-01
+    1 KSP Residual norm 1.153014718015e-14
+  2 SNES Function norm 3.069860799077e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.069860799077e-01
+    1 KSP Residual norm 8.541089929756e-15
+  3 SNES Function norm 2.134330885532e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.134330885532e-01
+    1 KSP Residual norm 4.869938590175e-15
+  4 SNES Function norm 8.595133387758e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.595133387758e-02
+    1 KSP Residual norm 4.691568783791e-15
+  5 SNES Function norm 8.895937468595e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.895937468595e-03
+    1 KSP Residual norm 1.733134929974e-15
+  6 SNES Function norm 4.346141623770e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.346141623770e-04
+    1 KSP Residual norm 7.619988000615e-17
+  7 SNES Function norm 6.507451874660e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.507451874660e-05
+    1 KSP Residual norm 7.906932203154e-18
+  8 SNES Function norm 3.413178664641e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.413178664641e-06
+    1 KSP Residual norm 3.087696868359e-19
+  9 SNES Function norm 1.691020909611e-07
+  0 SNES Function norm 2.709393814596e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.709393814596e-01
+    1 KSP Residual norm 8.927506849272e-16
+  1 SNES Function norm 1.437933549164e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.437933549164e-03
+    1 KSP Residual norm 9.142480203462e-16
+  2 SNES Function norm 1.654379463785e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.654379463785e-04
+    1 KSP Residual norm 5.020108570011e-17
+  3 SNES Function norm 1.762331161228e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.762331161228e-05
+    1 KSP Residual norm 3.561760989934e-18
+  4 SNES Function norm 3.260143211424e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.260143211424e-06
+    1 KSP Residual norm 7.865464250170e-19
+  5 SNES Function norm 3.417276237394e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.417276237394e-07
+    1 KSP Residual norm 9.108672416634e-20
+  6 SNES Function norm 9.044893574354e-09
+  0 SNES Function norm 3.616510886518e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.616510886518e-01
+    1 KSP Residual norm 2.997625445455e-16
+  1 SNES Function norm 1.451453966218e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.451453966218e-04
+    1 KSP Residual norm 2.172902969399e-16
+  2 SNES Function norm 9.220761806424e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.220761806424e-06
+    1 KSP Residual norm 1.391264536722e-17
+  3 SNES Function norm 4.322717599843e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.322717599843e-07
+    1 KSP Residual norm 6.220672556415e-19
+  4 SNES Function norm 6.068072984941e-09
+  0 SNES Function norm 6.577491572110e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.577491572110e-01
+    1 KSP Residual norm 2.106486350575e-16
+  1 SNES Function norm 2.948554092588e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.948554092588e-05
+    1 KSP Residual norm 9.919346614012e-17
+  2 SNES Function norm 2.172132390402e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.172132390402e-06
+    1 KSP Residual norm 7.266072765170e-18
+  3 SNES Function norm 9.481445293461e-08
+  0 SNES Function norm 1.503713766094e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.503713766094e+00
+    1 KSP Residual norm 3.264168147942e-16
+  1 SNES Function norm 1.805985853994e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.805985853994e-05
+    1 KSP Residual norm 4.311067060351e-17
+  2 SNES Function norm 4.714757828683e-07
+  0 SNES Function norm 4.676152591781e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.676152591781e+00
+    1 KSP Residual norm 9.129532683421e-16
+  1 SNES Function norm 1.256374795296e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.256374795296e-05
+    1 KSP Residual norm 1.728795384143e-16
+  2 SNES Function norm 4.341868889488e-07
+  0 SNES Function norm 2.435496329596e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.435496329596e+01
+    1 KSP Residual norm 5.212800626386e-15
+  1 SNES Function norm 5.662385363086e-06
+  0 SNES Function norm 2.871470654117e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.871470654117e+01
+    1 KSP Residual norm 5.367413912452e-15
+  1 SNES Function norm 8.454667987032e-07
+  0 SNES Function norm 2.870226657166e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.870226657166e+01
+    1 KSP Residual norm 5.270809155485e-15
+  1 SNES Function norm 1.609778484655e-07
+  0 SNES Function norm 2.402093381899e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.402093381899e-01
+    1 KSP Residual norm 4.302736231568e-14
+  1 SNES Function norm 2.079860049929e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.079860049929e-01
+    1 KSP Residual norm 2.876642811976e-14
+  2 SNES Function norm 1.850738955242e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.850738955242e-01
+    1 KSP Residual norm 2.311319506264e-14
+  3 SNES Function norm 1.302995772668e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.302995772668e-01
+    1 KSP Residual norm 1.274097524296e-14
+  4 SNES Function norm 5.575804862512e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.575804862512e-02
+    1 KSP Residual norm 1.186942204471e-14
+  5 SNES Function norm 5.545132903824e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.545132903824e-03
+    1 KSP Residual norm 4.061042987728e-15
+  6 SNES Function norm 2.828626976670e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.828626976670e-04
+    1 KSP Residual norm 1.719466859029e-16
+  7 SNES Function norm 1.309465800278e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.309465800278e-04
+    1 KSP Residual norm 2.759885772379e-17
+  8 SNES Function norm 4.438135683546e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.438135683546e-05
+    1 KSP Residual norm 1.924378450364e-18
+  9 SNES Function norm 1.505263864606e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.505263864606e-05
+    1 KSP Residual norm 6.658619321360e-19
+ 10 SNES Function norm 4.953450005049e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.953450005049e-06
+    1 KSP Residual norm 2.769894359673e-19
+ 11 SNES Function norm 1.425709838454e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.425709838454e-06
+    1 KSP Residual norm 9.801083441121e-20
+ 12 SNES Function norm 2.784441764474e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.784441764474e-07
+    1 KSP Residual norm 3.308506042592e-20
+ 13 SNES Function norm 2.003807957523e-08
+  0 SNES Function norm 1.537653498455e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.537653498455e-01
+    1 KSP Residual norm 2.367579795615e-15
+  1 SNES Function norm 7.117230471751e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 7.117230471751e-04
+    1 KSP Residual norm 3.431042068845e-15
+  2 SNES Function norm 3.625078293445e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.625078293445e-04
+    1 KSP Residual norm 4.641347397751e-17
+  3 SNES Function norm 1.243677994998e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.243677994998e-04
+    1 KSP Residual norm 4.867719280856e-18
+  4 SNES Function norm 4.495991779981e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.495991779981e-05
+    1 KSP Residual norm 2.310098746787e-18
+  5 SNES Function norm 1.605482422664e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.605482422664e-05
+    1 KSP Residual norm 1.547682468070e-18
+  6 SNES Function norm 5.535490159304e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.535490159304e-06
+    1 KSP Residual norm 8.032520427767e-19
+  7 SNES Function norm 1.744074985366e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.744074985366e-06
+    1 KSP Residual norm 5.668400122291e-19
+  8 SNES Function norm 4.322968860493e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.322968860493e-07
+    1 KSP Residual norm 1.507872782275e-19
+  9 SNES Function norm 5.828298964835e-08
+  0 SNES Function norm 2.337468784540e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.337468784540e-01
+    1 KSP Residual norm 6.269770410011e-16
+  1 SNES Function norm 4.879666071627e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.879666071627e-05
+    1 KSP Residual norm 1.780433840981e-16
+  2 SNES Function norm 5.312307785421e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.312307785421e-06
+    1 KSP Residual norm 2.455399964658e-17
+  3 SNES Function norm 1.500238827002e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.500238827002e-06
+    1 KSP Residual norm 1.480675734858e-18
+  4 SNES Function norm 4.525551762258e-07
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.525551762258e-07
+    1 KSP Residual norm 3.303996988190e-19
+  5 SNES Function norm 1.040061024679e-07
+  0 SNES Function norm 4.300066845505e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.300066845505e-01
+    1 KSP Residual norm 2.527735568477e-16
+  1 SNES Function norm 8.563112363426e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 8.563112363426e-06
+    1 KSP Residual norm 7.546959420350e-17
+  2 SNES Function norm 1.090770614392e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.090770614392e-06
+    1 KSP Residual norm 3.217738625886e-18
+  3 SNES Function norm 1.522226471510e-07
+  0 SNES Function norm 9.773421477375e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.773421477375e-01
+    1 KSP Residual norm 2.288508078726e-16
+  1 SNES Function norm 9.188531799304e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.188531799304e-06
+    1 KSP Residual norm 2.941171692560e-17
+  2 SNES Function norm 1.900986315052e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.900986315052e-06
+    1 KSP Residual norm 3.490657712121e-18
+  3 SNES Function norm 2.425839413972e-07
+  0 SNES Function norm 3.032455990334e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.032455990334e+00
+    1 KSP Residual norm 6.467488264445e-16
+  1 SNES Function norm 5.714508302281e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.714508302281e-04
+    1 KSP Residual norm 6.057568321165e-17
+  2 SNES Function norm 2.092698501579e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.092698501579e-04
+    1 KSP Residual norm 1.367928725903e-17
+  3 SNES Function norm 7.609635362343e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 7.609635362343e-05
+    1 KSP Residual norm 8.819273857087e-18
+  4 SNES Function norm 2.714951807509e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.714951807509e-05
+    1 KSP Residual norm 8.498670679454e-18
+  5 SNES Function norm 9.091509081209e-06
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.091509081209e-06
+    1 KSP Residual norm 7.951218779426e-18
+  6 SNES Function norm 2.543601462141e-06
+  0 SNES Function norm 1.585027776162e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.585027776162e+01
+    1 KSP Residual norm 3.557755510455e-15
+  1 SNES Function norm 1.426524998546e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.426524998546e+01
+    1 KSP Residual norm 3.562338155831e-15
+  2 SNES Function norm 1.283872498691e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.283872498691e+01
+    1 KSP Residual norm 3.046271296565e-15
+  3 SNES Function norm 1.155485248822e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.155485248822e+01
+    1 KSP Residual norm 3.090514141865e-15
+  4 SNES Function norm 1.407232712879e+00
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.407232712879e+00
+    1 KSP Residual norm 1.684666286247e-15
+  5 SNES Function norm 5.176914364815e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 5.176914364815e-01
+    1 KSP Residual norm 2.774663146026e-16
+  6 SNES Function norm 1.904476275080e-01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.904476275080e-01
+    1 KSP Residual norm 7.402561272229e-17
+  7 SNES Function norm 7.006126734203e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 7.006126734203e-02
+    1 KSP Residual norm 2.714178585014e-17
+  8 SNES Function norm 2.577358330942e-02
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.577358330942e-02
+    1 KSP Residual norm 2.052059381777e-17
+  9 SNES Function norm 9.481075065855e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 9.481075065855e-03
+    1 KSP Residual norm 1.759728768306e-17
+ 10 SNES Function norm 3.487415382031e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 3.487415382031e-03
+    1 KSP Residual norm 2.527481581740e-17
+ 11 SNES Function norm 1.282471357132e-03
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.282471357132e-03
+    1 KSP Residual norm 1.428246616118e-17
+ 12 SNES Function norm 4.713078664842e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 4.713078664842e-04
+    1 KSP Residual norm 7.026773558776e-18
+ 13 SNES Function norm 1.728904533066e-04
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.728904533066e-04
+    1 KSP Residual norm 3.286896660493e-17
+ 14 SNES Function norm 6.310666980632e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 6.310666980632e-05
+    1 KSP Residual norm 1.401890444525e-17
+ 15 SNES Function norm 2.272300709674e-05
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 2.272300709674e-05
+    1 KSP Residual norm 2.561699149231e-17
+ 16 SNES Function norm 7.882274609179e-06
+  0 SNES Function norm 1.882822727679e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.882822727679e+01
+    1 KSP Residual norm 4.731097508495e-15
+  1 SNES Function norm 1.694540454911e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.694540454911e+01
+    1 KSP Residual norm 4.167853159476e-15
+  2 SNES Function norm 1.268959921883e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.268959921883e+01
+    1 KSP Residual norm 4.942515299809e-15
+  3 SNES Function norm 1.306921026024e-05
+  0 SNES Function norm 1.887324457659e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.887324457659e+01
+    1 KSP Residual norm 4.339966451661e-15
+  1 SNES Function norm 7.438590818191e-06
+  0 SNES Function norm 1.889904913285e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.889904913285e+01
+    1 KSP Residual norm 4.349473093538e-15
+  1 SNES Function norm 2.737804725204e-06
+  0 SNES Function norm 1.890749557211e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.890749557211e+01
+    1 KSP Residual norm 4.464635388939e-15
+  1 SNES Function norm 1.845776198050e-06
+  0 SNES Function norm 1.890756323469e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.890756323469e+01
+    1 KSP Residual norm 4.355551748751e-15
+  1 SNES Function norm 1.168915286007e-06
+  0 SNES Function norm 1.890918762915e+01
+    Residual norms for obstacle_ solve.
+    0 KSP Residual norm 1.890918762915e+01
+    1 KSP Residual norm 4.028334406232e-15
+  1 SNES Function norm 7.801008821019e-07
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.19, running with linear solver MUMPS 5.8.1.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:     5679
+
+Total number of variables............................:     1452
+                     variables with only lower bounds:     1452
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 0.00e+00 1.00e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.2056163e+00 0.00e+00 9.57e-03  -1.0 9.95e-02    -  9.90e-01 1.00e+00f  1
+   2  7.1265575e-01 0.00e+00 2.83e-08  -2.5 5.09e-02    -  1.00e+00 1.00e+00f  1
+   3 -8.1216036e-01 0.00e+00 1.50e-09  -3.8 2.36e-01    -  1.00e+00 1.00e+00f  1
+   4 -1.0128854e+00 0.00e+00 3.56e-03  -5.7 7.33e-02    -  1.00e+00 5.91e-01f  1
+   5 -1.0947653e+00 0.00e+00 6.60e-03  -5.7 4.71e-02    -  1.00e+00 6.10e-01f  1
+   6 -1.1178837e+00 0.00e+00 5.65e-03  -5.7 2.50e-02    -  1.00e+00 6.05e-01f  1
+   7 -1.1246047e+00 0.00e+00 4.15e-03  -5.7 1.26e-02    -  1.00e+00 6.28e-01f  1
+   8 -1.1267280e+00 0.00e+00 1.83e-03  -5.7 6.04e-03    -  1.00e+00 7.47e-01f  1
+   9 -1.1272424e+00 0.00e+00 1.84e-11  -5.7 2.13e-03    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 -1.1276059e+00 0.00e+00 1.85e-04  -7.0 9.42e-04    -  1.00e+00 8.98e-01f  1
+  11 -1.1276461e+00 0.00e+00 9.09e-13  -7.0 3.60e-04    -  1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 11
+
+                                   (scaled)                 (unscaled)
+Objective...............:  -1.1276461084797593e+00   -1.1276461084797593e+00
+Dual infeasibility......:   9.0935462767966917e-13    9.0935462767966917e-13
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   2.6304891542399600e-07    2.6304891542399600e-07
+Overall NLP error.......:   2.6304891542399600e-07    2.6304891542399600e-07
+
+
+Number of objective function evaluations             = 12
+Number of objective gradient evaluations             = 12
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 1
+Total seconds in IPOPT                               = 0.033
+
+EXIT: Optimal Solution Found.
+This is Ipopt version 3.14.19, running with linear solver MUMPS 5.8.1.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:     1452
+                     variables with only lower bounds:     1452
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 0.00e+00 1.00e+00   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.6105462e-01 0.00e+00 6.26e-02  -1.7 1.70e-02    -  9.92e-01 1.00e+00f  1
+   2  2.5311865e+01 0.00e+00 7.73e-01  -1.6 4.89e-01    -  1.00e+00 1.00e+00f  1
+   3  1.8281326e+01 0.00e+00 7.68e-01  -1.6 7.14e-01    -  9.87e-01 5.00e-01f  2
+   4  7.6417442e+00 0.00e+00 7.15e-01  -1.6 5.07e-01    -  1.00e+00 1.00e+00f  1
+   5  9.8284826e+00 0.00e+00 1.62e+00  -1.6 4.21e-01    -  1.00e+00 1.00e+00f  1
+   6  8.5246657e+00 0.00e+00 3.05e-01  -1.6 3.25e-01    -  1.00e+00 1.00e+00f  1
+   7  9.3942352e+00 0.00e+00 5.67e-01  -1.6 1.62e-01    -  1.00e+00 1.00e+00f  1
+   8  9.1612628e+00 0.00e+00 3.77e-01  -1.6 2.17e-01    -  1.00e+00 1.00e+00f  1
+   9  1.0113879e+01 0.00e+00 4.72e-01  -1.6 3.61e-01    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.0926166e+01 0.00e+00 4.32e-01  -1.6 3.49e-01    -  1.00e+00 5.00e-01f  2
+  11  1.2771873e+01 0.00e+00 2.59e-01  -1.6 1.92e-01    -  1.00e+00 1.00e+00f  1
+  12  1.2333808e+01 0.00e+00 1.60e-01  -1.6 1.88e-01    -  1.00e+00 5.00e-01f  2
+  13  8.7331969e+00 0.00e+00 2.48e-01  -2.4 2.89e-01    -  1.00e+00 1.00e+00f  1
+  14  7.4009900e+00 0.00e+00 3.83e-01  -2.4 1.45e+00    -  1.00e+00 1.11e-01f  3
+  15  5.0388054e+00 0.00e+00 6.55e-01  -2.4 6.86e-01    -  1.00e+00 4.59e-01f  2
+  16  3.3647615e+00 0.00e+00 3.26e-01  -2.4 1.09e+00    -  1.00e+00 2.51e-01f  2
+  17  2.5354526e+00 0.00e+00 3.22e-01  -2.4 4.88e-01    -  7.66e-01 2.50e-01f  3
+  18  1.9420423e+00 0.00e+00 4.52e-01  -2.4 1.55e-01    -  1.00e+00 1.00e+00f  1
+  19  1.5816879e+00 0.00e+00 1.66e-01  -2.4 2.36e-01    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  1.2889268e+00 0.00e+00 1.41e-01  -2.4 5.70e-02    -  1.00e+00 1.00e+00f  1
+  21  1.1613059e+00 0.00e+00 1.19e-01  -2.4 4.40e-02    -  1.00e+00 1.00e+00f  1
+  22  1.1361880e+00 0.00e+00 5.02e-02  -2.4 2.81e-02    -  1.00e+00 1.00e+00f  1
+  23  1.1289028e+00 0.00e+00 7.83e-03  -2.4 1.04e-02    -  1.00e+00 1.00e+00f  1
+  24  8.7660798e-01 0.00e+00 6.90e-02  -3.6 3.40e-02    -  1.00e+00 1.00e+00f  1
+  25  1.7858087e-01 0.00e+00 3.59e-01  -3.6 2.16e+00    -  1.00e+00 7.35e-02f  2
+  26  2.6588694e-02 0.00e+00 5.45e-01  -3.6 4.56e-01    -  8.29e-01 2.87e-01f  2
+  27 -3.4139837e-01 0.00e+00 1.74e-01  -3.6 2.52e-01    -  5.40e-01 4.42e-01f  2
+  28 -5.7012497e-01 0.00e+00 2.22e-01  -3.3 1.07e-01    -  8.66e-01 1.00e+00f  1
+  29 -1.0087176e+00 0.00e+00 1.01e-01  -4.1 8.61e-02    -  1.00e+00 8.64e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30 -1.0266619e+00 0.00e+00 7.69e-02  -3.6 2.08e-01    -  8.74e-01 9.29e-02f  4
+  31 -1.0536368e+00 0.00e+00 4.52e-02  -5.5 2.79e-02    -  1.00e+00 2.95e-01f  1
+  32 -1.0678810e+00 0.00e+00 8.52e-02  -4.5 1.04e-01    -  1.00e+00 1.89e-01f  2
+  33 -1.1109219e+00 0.00e+00 2.14e-02  -5.1 2.66e-02    -  1.00e+00 7.03e-01f  1
+  34 -1.1138090e+00 0.00e+00 4.16e-02  -4.9 2.62e-02    -  1.00e+00 3.68e-01f  2
+  35 -1.1237689e+00 0.00e+00 1.78e-02  -5.8 8.06e-03    -  1.00e+00 7.35e-01f  1
+  36 -1.1264900e+00 0.00e+00 1.17e-02  -6.4 4.81e-03    -  1.00e+00 7.89e-01f  1
+  37 -1.1270833e+00 0.00e+00 1.89e-02  -7.0 7.97e-03    -  1.00e+00 6.79e-01f  1
+  38 -1.1273739e+00 0.00e+00 4.64e-03  -6.2 4.01e-03    -  1.00e+00 1.00e+00f  1
+  39 -1.1275796e+00 0.00e+00 2.36e-03  -7.2 9.48e-04    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40 -1.1276175e+00 0.00e+00 8.46e-04  -9.0 4.89e-04    -  1.00e+00 9.42e-01f  1
+  41 -1.1276286e+00 0.00e+00 2.64e-03  -9.4 1.29e-03    -  1.00e+00 9.52e-01f  1
+  42 -1.1276288e+00 0.00e+00 3.91e-03  -7.3 2.87e-03    -  1.00e+00 5.00e-01f  2
+  43 -1.1276416e+00 0.00e+00 2.38e-03  -8.3 9.92e-04    -  1.00e+00 1.00e+00f  1
+  44 -1.1276590e+00 0.00e+00 7.81e-04  -9.5 5.66e-04    -  1.00e+00 9.86e-01f  1
+  45 -1.1276604e+00 0.00e+00 6.77e-04  -8.9 2.15e-04    -  1.00e+00 1.00e+00f  1
+  46 -1.1276621e+00 0.00e+00 1.52e-04 -10.7 1.59e-04    -  1.00e+00 1.00e+00f  1
+  47 -1.1276634e+00 0.00e+00 2.83e-04 -10.1 4.68e-04    -  1.00e+00 5.00e-01f  2
+  48 -1.1276641e+00 0.00e+00 9.52e-04 -10.6 7.16e-04    -  1.00e+00 5.00e-01f  2
+  49 -1.1276642e+00 0.00e+00 6.15e-04 -11.0 6.33e-04    -  1.00e+00 5.00e-01f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50 -1.1276655e+00 0.00e+00 4.97e-04 -10.7 2.48e-04    -  1.00e+00 5.00e-01f  2
+  51 -1.1276662e+00 0.00e+00 2.71e-04 -11.0 1.51e-04    -  1.00e+00 1.00e+00f  1
+  52 -1.1276663e+00 0.00e+00 1.83e-04 -11.0 1.83e-04    -  1.00e+00 5.00e-01f  2
+  53 -1.1276664e+00 0.00e+00 6.57e-05 -11.0 5.71e-05    -  1.00e+00 1.00e+00f  1
+  54 -1.1276664e+00 0.00e+00 1.93e-04 -11.0 9.13e-05    -  1.00e+00 5.00e-01f  2
+  55 -1.1276665e+00 0.00e+00 6.38e-05 -11.0 3.79e-05    -  1.00e+00 1.00e+00f  1
+  56 -1.1276665e+00 0.00e+00 1.45e-04 -11.0 6.54e-05    -  1.00e+00 5.00e-01f  2
+  57 -1.1276665e+00 0.00e+00 3.29e-05 -11.0 3.22e-05    -  1.00e+00 1.00e+00f  1
+  58 -1.1276665e+00 0.00e+00 2.50e-05 -11.0 1.55e-05    -  1.00e+00 1.00e+00f  1
+  59 -1.1276665e+00 0.00e+00 4.92e-05 -11.0 2.02e-05    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  60 -1.1276665e+00 0.00e+00 3.46e-05 -11.0 9.17e-05    -  1.00e+00 2.50e-01f  3
+  61 -1.1276665e+00 0.00e+00 2.87e-05 -11.0 3.73e-05    -  1.00e+00 2.50e-01f  3
+  62 -1.1276665e+00 0.00e+00 9.02e-06 -11.0 7.65e-06    -  1.00e+00 1.00e+00f  1
+  63 -1.1276665e+00 0.00e+00 1.60e-05 -11.0 6.20e-06    -  1.00e+00 1.00e+00f  1
+  64 -1.1276665e+00 0.00e+00 1.33e-05 -11.0 5.50e-06    -  1.00e+00 1.00e+00f  1
+  65 -1.1276665e+00 0.00e+00 8.30e-06 -11.0 1.46e-05    -  1.00e+00 5.00e-01f  2
+  66 -1.1276665e+00 0.00e+00 8.46e-06 -11.0 8.32e-06    -  1.00e+00 5.00e-01f  2
+  67 -1.1276665e+00 0.00e+00 9.95e-06 -11.0 3.85e-06    -  1.00e+00 1.00e+00f  1
+  68 -1.1276665e+00 0.00e+00 5.39e-06 -11.0 4.74e-06    -  1.00e+00 5.00e-01f  2
+  69 -1.1276665e+00 0.00e+00 2.58e-06 -11.0 1.25e-06    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  70 -1.1276665e+00 0.00e+00 4.06e-06 -11.0 1.78e-06    -  1.00e+00 1.00e+00f  1
+  71 -1.1276665e+00 0.00e+00 3.55e-06 -11.0 3.07e-06    -  1.00e+00 5.00e-01f  2
+  72 -1.1276665e+00 0.00e+00 3.19e-06 -11.0 5.17e-06    -  1.00e+00 5.00e-01f  2
+  73 -1.1276665e+00 0.00e+00 3.67e-06 -11.0 3.02e-06    -  1.00e+00 2.50e-01f  3
+  74 -1.1276665e+00 0.00e+00 1.54e-06 -11.0 1.23e-06    -  1.00e+00 1.00e+00f  1
+  75 -1.1276665e+00 0.00e+00 9.81e-07 -11.0 1.73e-06    -  1.00e+00 2.50e-01f  3
+
+Number of Iterations....: 75
+
+                                   (scaled)                 (unscaled)
+Objective...............:  -1.1276665473070098e+00   -1.1276665473070098e+00
+Dual infeasibility......:   9.8074832266697994e-07    9.8074832266697994e-07
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Variable bound violation:   9.7047160585450598e-09    9.7047160585450598e-09
+Complementarity.........:   1.0019567129661975e-11    1.0019567129661975e-11
+Overall NLP error.......:   9.8074832266697994e-07    9.8074832266697994e-07
+
+
+Number of objective function evaluations             = 244
+Number of objective gradient evaluations             = 76
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 0
+Total seconds in IPOPT                               = 0.867
+
+EXIT: Optimal Solution Found.
+  0 SNES Function norm 2.333439178388e-01
+  1 SNES Function norm 2.097099508061e-01
+  2 SNES Function norm 1.874264938841e-01
+  3 SNES Function norm 1.749062490637e-01
+  4 SNES Function norm 1.561524830789e-01
+  5 SNES Function norm 1.387885892072e-01
+  6 SNES Function norm 1.241546590105e-01
+  7 SNES Function norm 1.114287387709e-01
+  8 SNES Function norm 9.689407962753e-02
+  9 SNES Function norm 7.514580028142e-02
+ 10 SNES Function norm 4.378192854500e-02
+ 11 SNES Function norm 1.489659760347e-02
+ 12 SNES Function norm 4.921624606695e-03
+ 13 SNES Function norm 9.116765005863e-04
+ 14 SNES Function norm 2.497091886585e-04
+ 15 SNES Function norm 2.388708694665e-05
+ 16 SNES Function norm 3.209631866933e-06
+ 17 SNES Function norm 1.070655625080e-07
+ 18 SNES Function norm 1.311357552978e-10
+OUTER LOOP 1 alpha: 1.0
+Newton steps: 9   Converged: 3
+Increment size: 0.7038751832222029
+
+OUTER LOOP 2 alpha: 1.0
+Newton steps: 6   Converged: 3
+Increment size: 0.23420366905531284   Ratio: 0.33273465898197213
+
+OUTER LOOP 3 alpha: 1.4900343193257237
+Newton steps: 4   Converged: 3
+Increment size: 0.06674728301708645   Ratio: 0.28499674358783195
+
+OUTER LOOP 4 alpha: 2.439200639104808
+Newton steps: 3   Converged: 3
+Increment size: 0.02100267549095972   Ratio: 0.3146596316974176
+
+OUTER LOOP 5 alpha: 5.349445965312164
+Newton steps: 2   Converged: 3
+Increment size: 0.006624250166361623   Ratio: 0.3154003007480133
+
+OUTER LOOP 6 alpha: 16.387223352344883
+Newton steps: 2   Converged: 3
+Increment size: 0.002403539802851533   Ratio: 0.3628395278694132
+
+OUTER LOOP 7 alpha: 84.95478289516922
+Newton steps: 1   Converged: 3
+Increment size: 0.001203734392928881   Ratio: 0.5008173326278116
+
+OUTER LOOP 8 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 0.0006825973059546372   Ratio: 0.5670663810591697
+
+OUTER LOOP 9 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 7.845077389196789e-05   Ratio: 0.11492980298574666
+
+Saving data to: /home/jovyan/shared/examples/01_obstacle_problem/output/example_polyorder1_1578.csv
+     Energy  Complementarity  ...  dofs      Step size rule
+0 -1.041185     1.598257e+01  ...  1578  double_exponential
+1 -1.120011     3.988184e-02  ...  1578  double_exponential
+2 -1.125472     8.224336e-03  ...  1578  double_exponential
+3 -1.126002     1.385944e-03  ...  1578  double_exponential
+4 -1.126071     1.418438e-04  ...  1578  double_exponential
+5 -1.126082     6.001650e-06  ...  1578  double_exponential
+6 -1.126085     2.227222e-06  ...  1578  double_exponential
+7 -1.126083     7.088747e-08  ...  1578  double_exponential
+8 -1.126082     9.231651e-09  ...  1578  double_exponential
+
+[9 rows x 11 columns]
+OUTER LOOP 1 alpha: 1.0
+Newton steps: 13   Converged: 3
+Increment size: 0.7056519098927477
+
+OUTER LOOP 2 alpha: 1.0
+Newton steps: 9   Converged: 3
+Increment size: 0.24158421413867004   Ratio: 0.342356069262802
+
+OUTER LOOP 3 alpha: 1.4900343193257237
+Newton steps: 5   Converged: 3
+Increment size: 0.060586576927344156   Ratio: 0.25078864173040416
+
+OUTER LOOP 4 alpha: 2.439200639104808
+Newton steps: 3   Converged: 3
+Increment size: 0.01651413065577324   Ratio: 0.27257078206575525
+
+OUTER LOOP 5 alpha: 5.349445965312164
+Newton steps: 3   Converged: 3
+Increment size: 0.004219864583570962   Ratio: 0.2555305314903587
+
+OUTER LOOP 6 alpha: 16.387223352344883
+Newton steps: 6   Converged: 3
+Increment size: 0.002471582410717378   Ratio: 0.5857018304188945
+
+OUTER LOOP 7 alpha: 84.95478289516922
+Newton steps: 16   Converged: 3
+Increment size: 0.0033340702156970906   Ratio: 1.3489617830422151
+
+OUTER LOOP 8 alpha: 100.0
+Newton steps: 3   Converged: 3
+Increment size: 0.001561093658081954   Ratio: 0.46822458949190404
+
+OUTER LOOP 9 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 0.0009728645865033135   Ratio: 0.6231942468452717
+
+OUTER LOOP 10 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 0.0002930082999597424   Ratio: 0.30118097012131756
+
+OUTER LOOP 11 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 0.0002734324619440891   Ratio: 0.9331901587144701
+
+OUTER LOOP 12 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 0.00011930262569687558   Ratio: 0.43631478445770766
+
+OUTER LOOP 13 alpha: 100.0
+Newton steps: 1   Converged: 3
+Increment size: 8.724265773138118e-05   Ratio: 0.731271899690184
+
+Saving data to: /home/jovyan/shared/examples/01_obstacle_problem/output/example_polyorder2_6183.csv
+      Energy  Complementarity  ...  dofs      Step size rule
+0  -1.050723     1.644816e+01  ...  6183  double_exponential
+1  -1.122399     4.383887e-02  ...  6183  double_exponential
+2  -1.126295     7.946066e-03  ...  6183  double_exponential
+3  -1.126593     1.205436e-03  ...  6183  double_exponential
+4  -1.126639     1.069584e-04  ...  6183  double_exponential
+5  -1.126671     6.224682e-06  ...  6183  double_exponential
+6  -1.126703     8.526727e-06  ...  6183  double_exponential
+7  -1.126709     4.028594e-06  ...  6183  double_exponential
+8  -1.126708     5.495273e-07  ...  6183  double_exponential
+9  -1.126708     1.257809e-07  ...  6183  double_exponential
+10 -1.126708     1.324132e-07  ...  6183  double_exponential
+11 -1.126708     4.034845e-08  ...  6183  double_exponential
+12 -1.126708     4.391005e-08  ...  6183  double_exponential
+
+[13 rows x 11 columns]
+0.04053114216377866
+meshes/disk_1.xdmf Galahad iterations: 4
+meshes/disk_1.xdmf llvp iterations: (P=1) 29
+meshes/disk_1.xdmf llvp iterations: (P=2) 63
+meshes/disk_1.xdmf Ipopt iterations: (With hessian) 11
+meshes/disk_1.xdmf Ipopt iterations: (Without hessian 75
+meshes/disk_1.xdmf SNES iterations: 18

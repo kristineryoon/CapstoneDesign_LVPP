@@ -75,13 +75,13 @@ if __name__ == "__main__":
     ) as bp:
         bp.write(0.0)
 
-    # Solve with llvp (first order)
+       # Solve with llvp (first order)
 
     u_lvpp, max_it = solve_problem(
         args.infile,
         1,
         maximum_number_of_outer_loop_iterations=max_iter,
-        alpha_scheme="double_exponential", # double_exponential에서 수정
+        alpha_scheme="double_exponential",
         alpha_max=1e2,
         tol_exit=tol,
     )
@@ -89,10 +89,54 @@ if __name__ == "__main__":
     mesh = u_lvpp.function_space.mesh
     degree = mesh.geometry.cmap.degree
     V_out = dolfinx.fem.functionspace(mesh, ("Lagrange", degree))
+
+    # Membrane displacement u
     u_out = dolfinx.fem.Function(V_out, name="llvp")
     u_out.interpolate(u_lvpp.sub(0))
+
+    # Obstacle function phi on the same function space as u_out
+    def phi_set_for_output(x):
+        phi_vals = np.full_like(x[0], -10.0)
+
+        R = 0.1
+        L = 0.4
+        Z_top = -0.2
+        Z_center = Z_top - R
+
+        dx = np.abs(x[0] - np.round(x[0] / L) * L)
+        dy = np.abs(x[1] - np.round(x[1] / L) * L)
+
+        mask_y_pipe = dx <= R
+        mask_x_pipe = dy <= R
+
+        h_y_pipe = np.full_like(x[0], -10.0)
+        h_y_pipe[mask_y_pipe] = Z_center + np.sqrt(R**2 - dx[mask_y_pipe]**2)
+
+        h_x_pipe = np.full_like(x[0], -10.0)
+        h_x_pipe[mask_x_pipe] = Z_center + np.sqrt(R**2 - dy[mask_x_pipe]**2)
+
+        phi_vals = np.maximum(phi_vals, h_y_pipe)
+        phi_vals = np.maximum(phi_vals, h_x_pipe)
+
+        return phi_vals
+
+    phi_out = dolfinx.fem.Function(V_out, name="phi")
+    phi_out.interpolate(phi_set_for_output)
+
+    # Gap function: gap = u - phi
+    gap_out = dolfinx.fem.Function(V_out, name="gap")
+    gap_out.x.array[:] = u_out.x.array[:] - phi_out.x.array[:]
+
+    # Contact indicator: contact = 1 if gap <= eps, otherwise 0
+    eps = 1e-5
+    contact_out = dolfinx.fem.Function(V_out, name="contact")
+    contact_out.x.array[:] = (gap_out.x.array[:] <= eps).astype(gap_out.x.array.dtype)
+
+    # Save llvp, phi, gap, contact together
     with dolfinx.io.VTXWriter(
-        mesh.comm, args.result_dir / f"{args.infile.stem}_llvp_first_order.bp", [u_out]
+        mesh.comm,
+        args.result_dir / f"{args.infile.stem}_llvp_first_order_contact.bp",
+        [u_out, phi_out, gap_out, contact_out],
     ) as bp:
         bp.write(0.0)
 
@@ -102,20 +146,36 @@ if __name__ == "__main__":
         args.infile,
         2,
         maximum_number_of_outer_loop_iterations=max_iter,
-        alpha_scheme="double_exponential", # double_exponential에서 수정
+        alpha_scheme="double_exponential",
         alpha_max=1e2,
         tol_exit=tol,
     )
-    u_out = u_lvpp_2.sub(0).collapse()
-    with dolfinx.io.VTXWriter(
-        u_out.function_space.mesh.comm,
-        args.result_dir / f"{args.infile.stem}_llvp_second_order.bp",
-        [u_out],
-    ) as bp:
-        bp.write(0.0)
 
+    # Membrane displacement u
+    u_out = u_lvpp_2.sub(0).collapse()
+    u_out.name = "llvp"
+
+    V_out_2 = u_out.function_space
+    mesh_2 = V_out_2.mesh
+
+    # Obstacle function phi on the same function space as u_out
+    phi_out = dolfinx.fem.Function(V_out_2, name="phi")
+    phi_out.interpolate(phi_set_for_output)
+
+    # Gap function: gap = u - phi
+    gap_out = dolfinx.fem.Function(V_out_2, name="gap")
+    gap_out.x.array[:] = u_out.x.array[:] - phi_out.x.array[:]
+
+    # Contact indicator
+    eps = 1e-5
+    contact_out = dolfinx.fem.Function(V_out_2, name="contact")
+    contact_out.x.array[:] = (gap_out.x.array[:] <= eps).astype(gap_out.x.array.dtype)
+
+    # Save llvp, phi, gap, contact together
     with dolfinx.io.VTXWriter(
-        mesh.comm, args.result_dir / f"{args.infile.stem}_obstacle.bp", [bounds_[0]]
+        mesh_2.comm,
+        args.result_dir / f"{args.infile.stem}_llvp_second_order_contact.bp",
+        [u_out, phi_out, gap_out, contact_out],
     ) as bp:
         bp.write(0.0)
 
