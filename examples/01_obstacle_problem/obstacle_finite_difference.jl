@@ -5,7 +5,7 @@ using LinearAlgebra, SparseArrays
 import ClassicalOrthogonalPolynomials: band
 using Plots, LaTeXStrings
 
-"""
+"""c"
 Solve the obstacle problem on a square domain with LVPP discretized with finite differences.
 """
 
